@@ -1,13 +1,39 @@
 {
   "name": "gatsby-starter-material-ui",
+  "version": "0.1.0",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby and Material UI",
-  "version": "0.1.0",
+  "keywords": [
+    "gatsby"
+  ],
+  "bugs": {
+    "url": "https://github.com/dominicabela/gatsby-starter-material-ui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dominicabela/gatsby-starter-material-ui"
+  },
+  "license": "MIT",
   "author": "Dominic Abela <djmabela@gmail.com>",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run clean && npm run develop",
+    "build": "npm run clean && gatsby build",
+    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "clean": "rimraf .cache public",
+    "serve": "gatsby serve",
+    "now-build": "npm run build",
+    "format": "npm run format:fix && npm run lint:js",
+    "format:fix": "prettier --write '**/*.{js,jsx,yml,json,css}'",
+    "lint:js": "eslint --cache --ext .js,.jsx . --fix",
+    "lint": "concurrently 'npm run lint:js' 'npm run format:fix'",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/styles": "^4.11.3",
+    "clsx": "^1.1.1",
     "gatsby": "^3.2.1",
     "gatsby-plugin-image": "^1.2.0",
     "gatsby-plugin-manifest": "^3.2.0",
@@ -36,24 +62,5 @@
     "import-sort-style-absolute": "^1.0.1",
     "prettier": "^1.18.2",
     "rimraf": "^3.0.2"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dominicabela/gatsby-starter-material-ui"
-  },
-  "bugs": {
-    "url": "https://github.com/dominicabela/gatsby-starter-material-ui/issues"
   }
 }
