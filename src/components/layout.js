@@ -5,12 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import './layout.css'
-
 import { StaticQuery, graphql } from 'gatsby'
-
 import PropTypes from 'prop-types'
 import React from 'react'
+
+import './layout.css'
 import Header from './Header'
 
 const Layout = ({ children }) => (
@@ -36,11 +35,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer style={{ paddingTop: 10 }}>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+          <footer style={{ paddingTop: 10 }}>MIT License</footer>
         </div>
       </div>
     )}
