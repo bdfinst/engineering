@@ -1,14 +1,11 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { createStyles, makeStyles } from '@material-ui/core/styles'
-
-import ContentMenuItem from './ContentMenuItem'
-import IconBarChart from '@material-ui/icons/BarChart'
 import IconDashboard from '@material-ui/icons/Dashboard'
 import IconLibraryBooks from '@material-ui/icons/LibraryBooks'
-import IconPeople from '@material-ui/icons/People'
-import IconShoppingCart from '@material-ui/icons/ShoppingCart'
 import List from '@material-ui/core/List'
 import React from 'react'
+
+import ContentMenuItem from './ContentMenuItem'
 
 const drawerWidth = 240
 

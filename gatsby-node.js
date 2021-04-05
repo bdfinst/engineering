@@ -55,45 +55,44 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 //   })
 // }
 
-// exports.createPages = ({ graphql, actions }) => {
-//   const { createPage } = actions
-//   return new Promise(resolve => {
-//     graphql(`
-//       {
-//         allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-//           edges {
-//             node {
-//               id
-//               excerpt
-//               fields {
-//                 slug
-//               }
-//               frontmatter {
-//                 title
-//                 date(formatString: "DD MMMM, YYYY")
-//                 tags
-//               }
-//             }
-//           }
-//         }
-//       }
-//     `).then(result => {
-//       const posts = result.data.allMarkdownRemark.edges
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
+  return new Promise(resolve => {
+    graphql(`
+      {
+        allMarkdownRemark(sort: { fields: [frontmatter___title], order: ASC }) {
+          edges {
+            node {
+              id
+              excerpt
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                tags
+              }
+            }
+          }
+        }
+      }
+    `).then(result => {
+      const posts = result.data.allMarkdownRemark.edges
 
-//       // createTagPages(createPage, posts)
+      // createTagPages(createPage, posts)
 
-//       posts.forEach(({ node }) => {
-//         createPage({
-//           path: node.fields.slug,
-//           component: path.resolve(`./src/templates/blog-post.js`),
-//           context: {
-//             // Data passed to context is available
-//             // in page queries as GraphQL variables.
-//             slug: node.fields.slug,
-//           },
-//         })
-//       })
-//       resolve()
-//     })
-//   })
-// }
+      posts.forEach(({ node }) => {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/playbook.js`),
+          context: {
+            // Data passed to context is available
+            // in page queries as GraphQL variables.
+            slug: node.fields.slug,
+          },
+        })
+      })
+      resolve()
+    })
+  })
+}

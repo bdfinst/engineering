@@ -29,6 +29,13 @@
     "lint": "concurrently 'npm run lint:js' 'npm run format:fix'",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
+  "importSort": {
+    ".js, .jsx": {
+      "parser": "babylon",
+      "style": "absolute",
+      "options": {}
+    }
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -50,6 +57,7 @@
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.3",
     "typeface-roboto": "^1.1.13"
   },
   "devDependencies": {
