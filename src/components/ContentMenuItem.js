@@ -25,11 +25,7 @@ const ContentMenuItem = props => {
   const isExpandable = children && children.length > 0
   const [open, setOpen] = React.useState(false)
 
-  console.log()
-
   function handleClick() {
-    console.log('clicked', pathRaw)
-
     setOpen(!open)
   }
 

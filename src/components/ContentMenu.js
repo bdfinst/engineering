@@ -31,7 +31,10 @@ const ContentMenu = () => {
   const classes = useStyles()
   const Pages = useStaticQuery(graphql`
     query {
-      allPageTree(sort: { fields: [name] }) {
+      allPageTree(
+        sort: { fields: [name], order: ASC }
+        filter: { name: { regex: "/^((?!404).)*$/" }, isRootPage: { eq: true } }
+      ) {
         edges {
           node {
             id
