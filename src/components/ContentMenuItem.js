@@ -19,10 +19,9 @@ const useStyles = makeStyles(theme =>
   })
 )
 
-const ContentMenuItem = props => {
-  const { name, pathRaw, children = [] } = props
+const ContentMenuItem = ({ name, pathRaw, subItems = [] }) => {
   const classes = useStyles()
-  const isExpandable = children && children.length > 0
+  const isExpandable = subItems && subItems.length > 0
   const [open, setOpen] = React.useState(false)
 
   function handleClick() {
@@ -48,8 +47,13 @@ const ContentMenuItem = props => {
     <Collapse in={open} timeout="auto" unmountOnExit>
       <Divider />
       <List component="div" disablePadding>
-        {children.map(item => (
-          <ContentMenuItem {...item} key={item.name} />
+        {subItems.map(item => (
+          <ContentMenuItem
+            name={item.name}
+            pathRaw={item.pathRaw}
+            subItems={item.subItems}
+            key={item.name}
+          />
         ))}
       </List>
     </Collapse>

@@ -1,8 +1,5 @@
-/* eslint-disable react/jsx-props-no-spreading */
-import { Link, graphql, useStaticQuery } from 'gatsby'
 import { createStyles, makeStyles } from '@material-ui/core/styles'
-import IconDashboard from '@material-ui/icons/Dashboard'
-import IconLibraryBooks from '@material-ui/icons/LibraryBooks'
+import { graphql, useStaticQuery } from 'gatsby'
 import List from '@material-ui/core/List'
 import React from 'react'
 
@@ -60,7 +57,12 @@ const ContentMenu = () => {
     <>
       <List component="nav" className={classes.appMenu} disablePadding>
         {edges.map(edge => (
-          <ContentMenuItem {...edge.node} key={edge.node.name} />
+          <ContentMenuItem
+            name={edge.node.name}
+            pathRaw={edge.node.pathRaw}
+            subItems={edge.node.children}
+            key={edge.node.name}
+          />
         ))}
       </List>
     </>
