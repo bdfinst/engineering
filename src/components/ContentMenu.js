@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
+import { Link, graphql, useStaticQuery } from 'gatsby'
 import { createStyles, makeStyles } from '@material-ui/core/styles'
 import IconDashboard from '@material-ui/icons/Dashboard'
 import IconLibraryBooks from '@material-ui/icons/LibraryBooks'
@@ -26,43 +27,40 @@ const useStyles = makeStyles(theme =>
   })
 )
 
-const appMenuItems = [
-  {
-    name: 'Dashboard',
-    link: '/',
-    Icon: IconDashboard,
-  },
-  {
-    name: 'Nested Pages',
-    Icon: IconLibraryBooks,
-    items: [
-      {
-        name: 'Level 2',
-      },
-      {
-        name: 'Level 2',
-        items: [
-          {
-            name: 'Level 3',
-          },
-          {
-            name: 'Level 3',
-          },
-        ],
-      },
-    ],
-  },
-]
-
 const ContentMenu = () => {
   const classes = useStyles()
+  const Pages = useStaticQuery(graphql`
+    query {
+      allPageTree {
+        edges {
+          node {
+            id
+            name
+            pathRaw
+            isRootPage
+            children {
+              id
+              ... on PageTree {
+                id
+                name
+                pathRaw
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+  const { edges } = Pages.allPageTree
 
   return (
-    <List component="nav" className={classes.appMenu} disablePadding>
-      {appMenuItems.map(item => (
-        <ContentMenuItem {...item} key={item.name} />
-      ))}
-    </List>
+    <>
+      <List component="nav" className={classes.appMenu} disablePadding>
+        {edges.map(edge => (
+          <ContentMenuItem {...edge.node} key={edge.node.name} />
+        ))}
+      </List>
+    </>
   )
 }
 

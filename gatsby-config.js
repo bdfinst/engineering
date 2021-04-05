@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `@dream-bit-de/gatsby-plugin-better-page-tree`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,13 +1,12 @@
+import { Link } from 'gatsby'
 /* eslint-disable react/jsx-props-no-spreading */
 import { createStyles, makeStyles } from '@material-ui/core/styles'
-
 import Collapse from '@material-ui/core/Collapse'
 import Divider from '@material-ui/core/Divider'
 import IconExpandLess from '@material-ui/icons/ExpandLess'
 import IconExpandMore from '@material-ui/icons/ExpandMore'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
-import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
 import React from 'react'
 
@@ -21,27 +20,26 @@ const useStyles = makeStyles(theme =>
 )
 
 const ContentMenuItem = props => {
-  const { name, Icon, items = [] } = props
+  const { name, pathRaw, children = [] } = props
   const classes = useStyles()
-  const isExpandable = items && items.length > 0
+  const isExpandable = children && children.length > 0
   const [open, setOpen] = React.useState(false)
 
+  console.log()
+
   function handleClick() {
+    console.log('clicked')
     setOpen(!open)
   }
 
   const MenuItemRoot = (
     <ListItem button className={classes.menuItem} onClick={handleClick}>
-      {/* Display an icon if any */}
-      {!!Icon && (
-        <ListItemIcon className={classes.menuItemIcon}>
-          <Icon />
-        </ListItemIcon>
-      )}
-      <ListItemText primary={name} inset={!Icon} />
+      <ListItemText primary={name} />
       {/* Display the expand menu if the item has children */}
       {isExpandable && !open && <IconExpandMore />}
       {isExpandable && open && <IconExpandLess />}
+      {!isExpandable && <Link to={pathRaw} />}
+      {console.log(isExpandable, pathRaw)}
     </ListItem>
   )
 
@@ -49,7 +47,7 @@ const ContentMenuItem = props => {
     <Collapse in={open} timeout="auto" unmountOnExit>
       <Divider />
       <List component="div" disablePadding>
-        {items.map(item => (
+        {children.map(item => (
           <ContentMenuItem {...item} key={item.name} />
         ))}
       </List>
