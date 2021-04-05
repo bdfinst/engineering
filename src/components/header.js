@@ -1,5 +1,6 @@
+import { Link } from 'gatsby'
+import { MenuItem } from '@material-ui/core'
 import { makeStyles, useTheme } from '@material-ui/core/styles'
-
 import AppBar from '@material-ui/core/AppBar'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight'
@@ -8,19 +9,18 @@ import Divider from '@material-ui/core/Divider'
 import Drawer from '@material-ui/core/Drawer'
 import HomeIcon from '@material-ui/icons/Home'
 import IconButton from '@material-ui/core/IconButton'
-import { Link } from 'gatsby'
 import List from '@material-ui/core/List'
 import ListIcon from '@material-ui/icons/ViewList'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
 import MenuIcon from '@material-ui/icons/Menu'
-import { MenuItem } from '@material-ui/core'
 import PropTypes from 'prop-types'
 import React from 'react'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import clsx from 'clsx'
+
 import ContentMenu from './ContentMenu'
 
 const drawerWidth = 240
@@ -86,7 +86,7 @@ const Header = ({ siteTitle }) => {
   const classes = useStyles()
 
   const theme = useTheme()
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(true)
 
   function handleDrawerOpen() {
     setOpen(true)
@@ -125,7 +125,7 @@ const Header = ({ siteTitle }) => {
         className={classes.drawer}
         variant="persistent"
         anchor="left"
-        open
+        open={open}
         classes={{
           paper: classes.drawerPaper,
         }}
