@@ -1,6 +1,6 @@
 import { Link } from 'gatsby'
 /* eslint-disable react/jsx-props-no-spreading */
-import { createStyles, makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/core/styles'
 import Collapse from '@material-ui/core/Collapse'
 import Divider from '@material-ui/core/Divider'
 import IconExpandLess from '@material-ui/icons/ExpandLess'
@@ -10,14 +10,12 @@ import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
 import React from 'react'
 
-const useStyles = makeStyles(theme =>
-  createStyles({
-    menuItem: {},
-    menuItemIcon: {
-      color: '#97c05c',
-    },
-  })
-)
+const useStyles = makeStyles({
+  menuItem: {},
+  menuItemIcon: {
+    color: '#97c05c',
+  },
+})
 
 const ContentMenuItem = ({ name, pathRaw, subItems = [] }) => {
   const classes = useStyles()

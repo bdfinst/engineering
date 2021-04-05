@@ -1,28 +1,15 @@
-import { createStyles, makeStyles } from '@material-ui/core/styles'
 import { graphql, useStaticQuery } from 'gatsby'
+import { makeStyles } from '@material-ui/core/styles'
 import List from '@material-ui/core/List'
 import React from 'react'
 
 import ContentMenuItem from './ContentMenuItem'
 
-const drawerWidth = 240
-
-const useStyles = makeStyles(theme =>
-  createStyles({
-    appMenu: {
-      width: '100%',
-    },
-    navList: {
-      width: drawerWidth,
-    },
-    menuItem: {
-      width: drawerWidth,
-    },
-    menuItemIcon: {
-      color: '#97c05c',
-    },
-  })
-)
+const useStyles = makeStyles({
+  appMenu: {
+    width: '100%',
+  },
+})
 
 const ContentMenu = () => {
   const classes = useStyles()
