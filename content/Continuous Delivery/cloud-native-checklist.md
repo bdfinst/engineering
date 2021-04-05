@@ -4,9 +4,8 @@ tags:
   - cd
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
 
-# {{ page.title }}
+
 
 - [{{ page.title }}](#-pagetitle-)
   - [Cloud Native checklist](#cloud-native-checklist)

@@ -6,27 +6,24 @@ tags:
 
 <img src="../../assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
 
-# {{ page.title }}
 
-- [{{ page.title }}](#pagetitle)
-  - [Introduction to CI/CD](#introduction-to-cicd)
-  - [Goals](#goals)
-    - [Continuous Integration](#continuous-integration)
-    - [Continuous Delivery/Deploy](#continuous-deliverydeploy)
-    - [CD Anti-Patterns](#cd-anti-patterns)
-      - [Work breakdown](#work-breakdown)
-      - [Workflow Management](#workflow-management)
-      - [Teams](#teams)
-      - [Testing Process](#testing-process)
-  - [Tools](#tools)
-  - [Recommended Practices](#recommended-practices)
-    - [Pipeline](#pipeline)
-    - [Cycle Time](#cycle-time)
-    - [Testing](#testing)
-  - [Tips](#tips)
-  - [References](#references)
-  - [Value](#value)
-    - [Acceptance Criteria](#acceptance-criteria)
+
+- [Introduction to CI/CD](#introduction-to-cicd)
+- [Goals](#goals)
+  - [Continuous Integration](#continuous-integration)
+  - [Continuous Delivery/Deploy](#continuous-deliverydeploy)
+  - [CD Anti-Patterns](#cd-anti-patterns)
+    - [Work breakdown](#work-breakdown)
+    - [Workflow Management](#workflow-management)
+    - [Teams](#teams)
+    - [Testing Process](#testing-process)
+- [Tools](#tools)
+- [Recommended Practices](#recommended-practices)
+  - [Pipeline](#pipeline)
+  - [Cycle Time](#cycle-time)
+  - [Testing](#testing)
+- [Tips](#tips)
+- [References](#references)
 
 ## Introduction to CI/CD
 
@@ -69,9 +66,9 @@ This working agreement for CI puts focus on developing teamwork and delivering q
   - Higher quality
   - Lower risk
 - Improved test architecture
-  - More focus on [unit](http://testing.walmart.com/testsolutions/testing-practices/testing-terms.html#unit-test) and [integration contract](http://testing.walmart.com/testsolutions/testing-practices/testing-terms.html#integration-test) tests
-- [Lean code review process](http://devops.walmart.com/bifrost/playbooks/code-review.html)
-- Reduced [Work In Progress](http://devops.walmart.com/bifrost/playbooks/workflow-management/limiting-wip.html) (WIP)
+  - More focus on [unit](#unit-test) and [integration contract](#integration-test) tests
+- [Lean code review process](code-review)
+- Reduced [Work In Progress](workflow-management/limiting-wip) (WIP)
 
 ### Continuous Delivery/Deploy
 
@@ -161,12 +158,6 @@ steps that should be done whenever starting the CD journey.
   - Fixing a broken build is the team's highest priority.
 </pre>
 
-- Validate [metric data quality](./metrics/index.html)
-  - [Team Rosters](https://teamrosters.walmart.com) team information is correct.
-  - The team is using Jira / VSTS to track work in real time.
-  - Hygieia dashboards exist for each repository and [.insights.yml](http://insights.walmart.com/docs/hygieia/metadata.html) files are
-    correct in each repository.
-- [Tools training](https://strati.walmart.com/training/) for the team
 
 - Build and continuously improve a single CI/CD automated pipeline for each
   repository. There should only be a single configuration for each repository
@@ -223,21 +214,3 @@ See [CD best practices](./cd-best-practices.html) and [CD anti-patterns](./cd-an
 
 ---
 
-## Value
-
-CI/CD is often thought of as a process that's only needed if you're trying to rapidly iterate on new features and that older
-applications do not need this ability. The reality is that CI is a quality process and CD is a process for standardizing delivery so
-that production fixes are lower risk. When it's a dumpster fire, we shouldn't be scrampling to come up with ad hoc delivery methods
-with reduced quality checks.
-
-### Acceptance Criteria
-
-- Deployment frequency increases
-- Merge frequency increases
-- Development cycle time decreases (goal < 2 days)
-- Build / Deploy fully automated
-- Testing fully automated
-- Single build deploys to all environments
-- No "hotfix" exception flows
-
-{% include playbooks-footer.html %}

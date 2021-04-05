@@ -4,9 +4,8 @@ tags:
     - cd
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
 
-# {{ page.title }}
+
 
 <p><big><big>
 "Our research has uncovered 24 key capabilities that drive improvements in software delivery performance in a statistically significant way. Our book details these findings."
