@@ -1,26 +1,27 @@
-import PropTypes from 'prop-types'
-import React from 'react'
-
-import { Link } from 'gatsby'
-
-import clsx from 'clsx'
 import { makeStyles, useTheme } from '@material-ui/core/styles'
-import Drawer from '@material-ui/core/Drawer'
-import CssBaseline from '@material-ui/core/CssBaseline'
+
 import AppBar from '@material-ui/core/AppBar'
-import Toolbar from '@material-ui/core/Toolbar'
-import List from '@material-ui/core/List'
-import Typography from '@material-ui/core/Typography'
-import Divider from '@material-ui/core/Divider'
-import IconButton from '@material-ui/core/IconButton'
-import MenuIcon from '@material-ui/icons/Menu'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight'
+import ContentMenu from './ContentMenu'
+import CssBaseline from '@material-ui/core/CssBaseline'
+import Divider from '@material-ui/core/Divider'
+import Drawer from '@material-ui/core/Drawer'
+import HomeIcon from '@material-ui/icons/Home'
+import IconButton from '@material-ui/core/IconButton'
+import { Link } from 'gatsby'
+import List from '@material-ui/core/List'
+import ListIcon from '@material-ui/icons/ViewList'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
-import HomeIcon from '@material-ui/icons/Home'
-import ListIcon from '@material-ui/icons/ViewList'
+import MenuIcon from '@material-ui/icons/Menu'
+import { MenuItem } from '@material-ui/core'
+import PropTypes from 'prop-types'
+import React from 'react'
+import Toolbar from '@material-ui/core/Toolbar'
+import Typography from '@material-ui/core/Typography'
+import clsx from 'clsx'
 
 const drawerWidth = 240
 
@@ -124,7 +125,7 @@ const Header = ({ siteTitle }) => {
         className={classes.drawer}
         variant="persistent"
         anchor="left"
-        open={open}
+        open
         classes={{
           paper: classes.drawerPaper,
         }}
@@ -139,24 +140,7 @@ const Header = ({ siteTitle }) => {
           </IconButton>
         </div>
         <Divider />
-        <List>
-          <Link to="/">
-            <ListItem button>
-              <ListItemIcon>
-                <HomeIcon />
-              </ListItemIcon>
-              <ListItemText>Home</ListItemText>
-            </ListItem>
-          </Link>
-          <Link to="/components">
-            <ListItem button>
-              <ListItemIcon>
-                <ListIcon />
-              </ListItemIcon>
-              <ListItemText>Components</ListItemText>
-            </ListItem>
-          </Link>
-        </List>
+        <ContentMenu />
       </Drawer>
     </div>
   )

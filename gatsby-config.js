@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Material UI Starter`,
-    description: `Kick off your next, great Gatsby project with this Material UI starter. This barebones starter ships with the main Gatsby and Material UI configuration files you might need.`,
-    author: `@dominicabela`,
+    title: `Platform One Engineering Practices`,
+    description: `Recommendations for teams wanting to deliver high-value applications using Platform One`,
+    author: `Platform One`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +11,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+            },
+          },
+        ],
       },
     },
     `gatsby-transformer-sharp`,
