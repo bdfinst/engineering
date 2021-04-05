@@ -31,7 +31,7 @@ const ContentMenu = () => {
   const classes = useStyles()
   const Pages = useStaticQuery(graphql`
     query {
-      allPageTree {
+      allPageTree(sort: { fields: [name] }) {
         edges {
           node {
             id

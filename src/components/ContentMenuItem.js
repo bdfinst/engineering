@@ -28,18 +28,23 @@ const ContentMenuItem = props => {
   console.log()
 
   function handleClick() {
-    console.log('clicked')
+    console.log('clicked', pathRaw)
+
     setOpen(!open)
   }
 
   const MenuItemRoot = (
     <ListItem button className={classes.menuItem} onClick={handleClick}>
-      <ListItemText primary={name} />
       {/* Display the expand menu if the item has children */}
       {isExpandable && !open && <IconExpandMore />}
       {isExpandable && open && <IconExpandLess />}
-      {!isExpandable && <Link to={pathRaw} />}
-      {console.log(isExpandable, pathRaw)}
+      {isExpandable ? (
+        <ListItemText primary={name} />
+      ) : (
+        <Link to={pathRaw}>
+          <ListItemText primary={name} />
+        </Link>
+      )}
     </ListItem>
   )
 
