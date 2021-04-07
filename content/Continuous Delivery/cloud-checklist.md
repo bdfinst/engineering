@@ -7,24 +7,23 @@ tags:
 
 
 
-- [{{ page.title }}](#-pagetitle-)
-  - [Cloud Native checklist](#cloud-native-checklist)
-  - [Principles and Practices](#principles-and-practices)
-    - [Small, autonomous, highly-cohesive services](#small-autonomous-highly-cohesive-services)
-    - [Hypermedia-driven service interactions](#hypermedia-driven-service-interactions)
-    - [Modeled around business concepts](#modeled-around-business-concepts)
-    - [Hide internal implementation details](#hide-internal-implementation-details)
-    - [Decentralize everything](#decentralize-everything)
-    - [Deploy independently](#deploy-independently)
-    - [Isolate failure](#isolate-failure)
-    - [Highly observable](#highly-observable)
-    - [Culture of automation](#culture-of-automation)
-    - [References](#references)
+- [Cloud Native checklist](#cloud-native-checklist)
+- [Principles and Practices](#principles-and-practices)
+  - [Small, autonomous, highly-cohesive services](#small-autonomous-highly-cohesive-services)
+  - [Hypermedia-driven service interactions](#hypermedia-driven-service-interactions)
+  - [Modeled around business concepts](#modeled-around-business-concepts)
+  - [Hide internal implementation details](#hide-internal-implementation-details)
+  - [Decentralize everything](#decentralize-everything)
+  - [Deploy independently](#deploy-independently)
+  - [Isolate failure](#isolate-failure)
+  - [Highly observable](#highly-observable)
+  - [Culture of automation](#culture-of-automation)
+  - [References](#references)
 
 ## Cloud Native checklist
 
 | Capability                                             | Yes / No |
-|--------------------------------------------------------|----------|
+| ------------------------------------------------------ | -------- |
 | Domain Context diagram current with dependencies shown |          |
 | Exception logging                                      |          |
 | Logs stream or self-purge                              |          |

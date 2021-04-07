@@ -4,27 +4,23 @@ tags:
       - glossary
 ---
 
+- [Continuous Delivery](#continuous-delivery)
+- [Continuous Deployment](#continuous-deployment)
+- [Continuous Integration](#continuous-integration)
+- [Definition of Done](#definition-of-done)
+- [Vertical Sliced Story](#vertical-sliced-story)
+- [Ready to Start](#ready-to-start)
+- [Toil](#toil)
 
-
-
-- [{{ page.title }}](#-pagetitle-)
-      - [Continuous Delivery](#continuous-delivery)
-      - [Continuous Deployment](#continuous-deployment)
-      - [Continuous Integration](#continuous-integration)
-      - [Definition of Done](#definition-of-done)
-      - [INVEST](#invest)
-      - [Vertical Sliced Story](#vertical-sliced-story)
-      - [Ready to Start](#ready-to-start)
-      - [Toil](#toil)
-#### Continuous Delivery
+## Continuous Delivery
 
 The ability to deliver the latest changes to production **on demand**.
 
-#### Continuous Deployment
+## Continuous Deployment
 
 Delivering the latest changes to production **as they occur**.
 
-#### Continuous Integration
+## Continuous Integration
 
 A development process where each developer integrates tested,
 changes to trunk very frequently or at least once per day. Trunk is kept ready to deploy at all times.
@@ -42,24 +38,12 @@ changes to trunk very frequently or at least once per day. Trunk is kept ready t
 Excerpt From: Jez Humble & David Farley. "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
 Automation."
 
-#### Definition of Done
+## Definition of Done
 
-Feature: All stories are deployed to production.
+- Feature: All stories are deployed to production.
+- Story: All agreed behaviors are implemented and the story is deployed to production.
 
-Story: All agreed behaviors are implemented and the story is deployed to production.
-
-#### INVEST
-
-All stories must be:
-
-- **I**ndependently deployable
-- **N**egotiable
-- **V**aluable
-- **E**stimable
-- **S**mall
-- **T**estable
-
-#### Vertical Sliced Story
+## Vertical Sliced Story
 
 A story should represent a response to a request that can be deployed
 independently of other stories. It should be aligned across the tech stack so
@@ -70,15 +54,14 @@ Examples:
 - Submitting a search term and returning results.
 - Requesting user information from a service and receiving a response.
 
-#### Ready to Start
+## Ready to Start
 
 - Testable acceptance criteria.
 - Dependencies noted so that can be appropriately coded around, if required.
-- Spikes identified and time boxed.
 - Tasks decomposed to allow a maximum number of team members to swarm.
 - All contract changes documented for contract test changes.
 
-#### Toil
+## Toil
 
 The repetitive, predictable, constant stream of tasks related to
 maintaining an application.
