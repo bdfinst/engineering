@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    require.resolve(`./plugins/build-menu`),
     `@dream-bit-de/gatsby-plugin-better-page-tree`,
     {
       resolve: '@stackbit/gatsby-plugin-menus',

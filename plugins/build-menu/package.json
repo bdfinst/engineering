@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-plugin-page-tree",
+  "version": "0.1.6",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^15.5.0",
+    "treeify-paths": "1.0.1"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json -d",
+    "build:watch": "tsc -p ./tsconfig.json -d -w"
+  }
+}
