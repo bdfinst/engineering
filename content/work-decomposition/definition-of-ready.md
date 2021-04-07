@@ -1,6 +1,8 @@
 ---
 
 title: Definition of Ready
+menus:
+  - Work Decomposition
 tags: [pending]
 ---
 

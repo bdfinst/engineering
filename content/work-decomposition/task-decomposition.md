@@ -1,6 +1,8 @@
 ---
 
 title: Task Decomposition
+menus:
+  - Work Decomposition
 tags: [pending]
 ---
 

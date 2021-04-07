@@ -1,6 +1,8 @@
 ---
 
 title: Team Glossary
+menus:
+  - Work Decomposition
 tags: [pending]
 ---
 

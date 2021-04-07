@@ -1,5 +1,8 @@
 ---
 title: CD Best Practices
+menus: 
+    - Continuous Delivery
+weight: 99
 tags:
     - cd
 ---

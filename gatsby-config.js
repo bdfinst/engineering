@@ -6,19 +6,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    require.resolve(`./plugins/build-menu`),
     `@dream-bit-de/gatsby-plugin-better-page-tree`,
-    {
-      resolve: '@stackbit/gatsby-plugin-menus',
-      options: {
-        // Gatsby node types from which we extract menus (optional, see "Advanced usage")
-        // sourceNodeType: 'MarkdownRemark',
-        // // the relative node path where we can find the 'menus' container (optional)
-        // sourceDataPath: 'frontmatter',
-        // the relative node path where we can find the page's URL (required)
-        sourceUrlPath: 'fields.url',
-      },
-    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

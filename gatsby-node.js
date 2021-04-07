@@ -71,6 +71,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 title
                 tags
+                menus
+                menuTitle
               }
             }
           }
@@ -82,6 +84,12 @@ exports.createPages = ({ graphql, actions }) => {
       // createTagPages(createPage, posts)
 
       posts.forEach(({ node }) => {
+        if (!node.frontmatter.title) {
+          throw new Error(`No title for ${node.fields.slug}`)
+        }
+        if (!node.frontmatter.tags || !node.frontmatter.tags.length) {
+          throw new Error(`No title for ${node.fields.slug}`)
+        }
         createPage({
           path: node.fields.slug,
           component: path.resolve(`./src/templates/playbook.js`),

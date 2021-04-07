@@ -1,6 +1,8 @@
 ---
 
 title: Defining Product Goals
+menus:
+  - Work Decomposition
 tags: [pending]
 ---
 

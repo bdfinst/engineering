@@ -1,6 +1,8 @@
 ---
 
 title: Work Decomposition
+menus:
+  - Work Decomposition
 tags: [pending]
 ---
 

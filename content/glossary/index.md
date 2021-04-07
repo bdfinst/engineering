@@ -1,5 +1,7 @@
 ---
 title: Definition of Terms
+menus:
+      - Glossary
 tags:
       - glossary
 ---
