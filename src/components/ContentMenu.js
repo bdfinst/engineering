@@ -1,6 +1,6 @@
-import { SignalCellularNoSimOutlined } from '@material-ui/icons'
 import { graphql, useStaticQuery } from 'gatsby'
 import { makeStyles } from '@material-ui/core/styles'
+import { v4 as uuid } from 'uuid'
 import List from '@material-ui/core/List'
 import React from 'react'
 
@@ -22,14 +22,6 @@ const ContentMenu = () => {
           fields: { slug: { ne: "/", regex: "/^((?!404).)*$/" } }
           frontmatter: {}
         }
-        sort: {
-          order: [ASC, ASC, ASC]
-          fields: [
-            frontmatter___menus
-            frontmatter___weight
-            frontmatter___title
-          ]
-        }
       ) {
         nodes {
           fields {
@@ -39,7 +31,7 @@ const ContentMenu = () => {
             title
             tags
             menus
-            weight
+            menuTitle
           }
         }
       }
@@ -48,43 +40,58 @@ const ContentMenu = () => {
 
   const { nodes } = Pages.allMarkdownRemark
 
-  const menuItems = nodes.map(node => ({
-    name: node.frontmatter.menuTitle || node.frontmatter.title,
-    pathRaw: node.fields.slug,
-    menus: node.frontmatter.menus,
-    key: node.frontmatter.title,
-  }))
+  const menuEntry = (name, path, menus = []) => ({
+    name,
+    pathRaw: path,
+    menus,
+    key: `${path}-${uuid()}`,
+  })
 
-  function onlyUnique(value, index, self) {
-    return self.indexOf(value) === index
-  }
+  const menuItems = nodes.map(node => {
+    const name = node.frontmatter.menuTitle || node.frontmatter.title
 
-  const topLevelMenu = menuItems
-    .map(node => (node.menus ? node.menus : []))
+    return menuEntry(name, node.fields.slug, node.frontmatter.menus)
+  })
+
+  const onlyUnique = (value, index, self) => self.indexOf(value) === index
+
+  const parentMenuList = menuItems
+    .map(node => (node.menus && node.menus.length ? node.menus : []))
     .flat()
     .filter(onlyUnique)
+    .sort()
 
-  const getSubItems = menu =>
+  const getMenuSubItems = menu =>
     menuItems
       .map(node => {
         if (node.menus && node.menus.length) {
           return node.menus.map(_menu => (_menu === menu ? node : undefined))
         }
+        return []
       })
       .flat()
       .filter(item => item !== undefined)
+      .sort((a, b) => (a.name > b.name ? 1 : -1))
 
-  const topMenu = topLevelMenu.sort().map(menu => ({
+  const parentMenu = parentMenuList.map(menu => ({
     name: menu,
     pathRaw: '',
     key: menu,
-    subItems: getSubItems(menu),
+    subItems: getMenuSubItems(menu),
   }))
+
+  const noChildren = menuItems.filter(
+    item => !item.menus || item.menus.length === 0
+  )
+
+  const staticMenu = [menuEntry('Home', '/')]
+    .concat(parentMenu)
+    .concat(noChildren)
 
   return (
     <>
       <List component="nav" className={classes.appMenu} disablePadding>
-        {topMenu.map(node => (
+        {staticMenu.map(node => (
           <ContentMenuItem
             name={node.name}
             pathRaw={node.pathRaw}

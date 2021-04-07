@@ -1,6 +1,8 @@
 ---
 
 title: Spikes
+menus:
+  - Work Decomposition
 tags: [pending]
 ---
 

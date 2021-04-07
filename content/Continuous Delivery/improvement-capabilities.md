@@ -1,5 +1,8 @@
 ---
 title: 24 Capabilities to Drive Improvement
+menuTitle: Improvement Steps
+menus: 
+    - Continuous Delivery
 tags:
     - cd
 ---

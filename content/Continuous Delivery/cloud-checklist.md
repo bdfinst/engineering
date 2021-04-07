@@ -1,5 +1,7 @@
 ---
 title: Cloud Native Checklist
+menus: 
+    - Continuous Delivery
 tags:
   - cd
 ---

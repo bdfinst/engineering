@@ -71,6 +71,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 title
                 tags
+                menus
+                menuTitle
               }
             }
           }

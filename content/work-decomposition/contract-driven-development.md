@@ -1,6 +1,8 @@
 ---
 
 title: Contract Driven Development
+menus:
+  - Work Decomposition
 tags: [pending]
 ---
 

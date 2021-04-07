@@ -1,5 +1,7 @@
 ---
 title: Getting Started with CI/CD
+menus: 
+    - Continuous Delivery
 tags:
   - cd
 ---
