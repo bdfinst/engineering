@@ -1,5 +1,9 @@
 ---
-title: CD Anti Patters
+title: CD Anti-patterns
+menus: 
+    - Continuous Delivery
+    - Test Menu
+weight: 1
 tags:
     - cd
 ---
