@@ -2,7 +2,6 @@
 title: Code Review
 ---
 
-
 As Wikipedia puts it, "Code review is systematic examination of computer
 source
 code. It is intended to find and fix mistakes overlooked in the initial

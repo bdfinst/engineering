@@ -2,7 +2,6 @@
 title: Source Ownership
 ---
 
-
 **_Delivery and quality is being significantly impacted by teams sharing
 ownership of the source code and adding process overhead to make sure everyone knows
 what's happening in the code._**

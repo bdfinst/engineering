@@ -2,7 +2,6 @@
 title: Retrospective Playbook
 ---
 
-
 **Retrospectives are critical** for teams that are serious about continuous
 improvement. They allow the team an opportunity to take a moment to inspect and
 adapt how they work. The importance of this cannot be overstated. Entropy is

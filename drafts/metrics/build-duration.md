@@ -2,7 +2,6 @@
 title: Build Cycle Time
 ---
 
-
 The time from code commit to production deploy. This is the minimum time changes can be applied to production. This is
 referenced as "hard lead time" in Accelerate
 

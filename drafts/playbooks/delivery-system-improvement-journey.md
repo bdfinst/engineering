@@ -2,7 +2,6 @@
 title: Improving Pipeline Architecture
 ---
 
-
 Whenever teams or areas want to improve their ability to deliver, there is a recommended order of operations to ensure the
 improvement is effective. This value stream improvement journey's goal is to provide the steps and guide you to good implementation
 practices.

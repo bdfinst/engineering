@@ -2,7 +2,6 @@
 title: Average Build Downtime
 ---
 
-
 The average length of time between when a build breaks and when it is fixed.
 
 ### What is the intended behavior?

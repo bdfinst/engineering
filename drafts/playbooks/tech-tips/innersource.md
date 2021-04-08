@@ -2,7 +2,6 @@
 title: InnerSource Development
 ---
 
-
 InnerSource development uses the practices of open source development to enable teams to contribute to each other's development efforts in a safe and controlled manner. This allows cross-training, builds cooperation, reduces silos, and enables the ability to flex effort when needed while maintaining quality ownership.
 
 ---

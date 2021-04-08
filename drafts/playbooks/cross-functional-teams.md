@@ -2,7 +2,6 @@
 title: Cross Functional Teams
 ---
 
-
 Cross functional teams contain all of the capabilities to build, test, deploy,
 and operate their components without requiring handoffs. Every product team
 needs the cross functional abilities to support their components from birth to

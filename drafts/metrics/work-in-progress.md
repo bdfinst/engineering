@@ -2,7 +2,6 @@
 title: WIP
 ---
 
-
 Work in Progress (WIP) is the total work that has been started but not
 completed. This includes **all** work, defects, tasks, stories, etc.
 

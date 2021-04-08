@@ -2,7 +2,6 @@
 title: Lead Time
 ---
 
-
 This shows the average time it takes for a new request to be delivered. This is
 measured from the creation date to release date for each unit of work and includes [Development Cycle Time](./development-cycle-time.html).
 

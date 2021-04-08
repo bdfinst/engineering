@@ -2,7 +2,6 @@
 title: Metrics Cheat Sheet
 ---
 
-
 ## Organizational Metrics
 
 These metrics are important for teams and management to track the health of the delivery system

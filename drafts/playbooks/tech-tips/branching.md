@@ -2,7 +2,6 @@
 title: Branching for Continuous Integration
 ---
 
-
 **_Trunk-based development, is a requirement for Continuous Integration._**
 
 ## Recommended Practices

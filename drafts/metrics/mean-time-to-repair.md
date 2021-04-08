@@ -2,7 +2,6 @@
 title: MTTR
 ---
 
-
 Mean Time to Repair is the average time between when a incidents is
 detected and when it is resolved.
 

@@ -2,7 +2,6 @@
 title: Repo Reporting
 ---
 
-
 Building an excel [**Repository
 Reporting**](../../assets/Repo-Report-Excel.xlsx) file is a way the DevOps Dojo
 team can get a quick view into the overall health of a teams repositories and

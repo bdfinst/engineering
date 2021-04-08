@@ -2,7 +2,6 @@
 title: Quality
 ---
 
-
 Quality is measured as the percentage of finished work that is unused, unstable, unavailable, or defective according to the end user.
 
 ### What is the intended behavior?

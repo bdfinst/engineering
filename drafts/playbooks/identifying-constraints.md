@@ -2,7 +2,6 @@
 title: Identifying Constraints
 ---
 
-
 Applying the Theory of Constraints is a way to identify the most important
 limiting factor that stands in the way of achieving a goal, and then
 systematically improving that constraint until it is no longer the limiting factor.

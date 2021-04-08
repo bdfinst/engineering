@@ -2,7 +2,6 @@
 title: Improvement Cadence
 ---
 
-
 The purpose of this playbook is to give example of an improvement cadence that
 development teams may implement in an effort to become more cross-functional and
 begin the journey of improvement.

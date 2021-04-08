@@ -2,7 +2,6 @@
 title: Defect Rate
 ---
 
-
 Defect rates are the number of defects created for an iteration of time relative to the number of changes being made.
 This should be tracked in every environment.
 

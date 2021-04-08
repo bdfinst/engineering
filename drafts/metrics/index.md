@@ -2,7 +2,6 @@
 title: Metrics Definitions
 ---
 
-
 Metrics are key to organizational improvement. If we do not measure, then any attempt at improvement is aimless.
 Metrics, like any tool, must be used correctly to drive the improvement we need. It's important to use metrics in
 offsetting groups and to focus improvement efforts on the group of metrics as a whole, not as individual measures.

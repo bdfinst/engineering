@@ -2,7 +2,6 @@
 title: Contract Driven Development
 ---
 
-
 Contract-Driven Development is an approach to software construction combining
 ideas from [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract), from [Test-Driven
 Design](https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/small-steps-to-great-things),

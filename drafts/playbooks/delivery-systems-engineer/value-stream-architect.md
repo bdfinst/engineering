@@ -2,7 +2,6 @@
 title: Value Stream Architect
 ---
 
-
 Value Stream Architect is an emerging role in the industry.
 
 ## DevOps Principles and Practices

@@ -2,7 +2,6 @@
 title: Code Coverage
 ---
 
-
 Measure of the amount of code that is executed by test code.
 
 ### What is the intended behavior?

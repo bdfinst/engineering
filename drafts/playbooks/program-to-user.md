@@ -2,7 +2,6 @@
 title: From Program to User Story
 ---
 
-
 Aligning priorities across multi-team products can be challenging. However, the process used at the team level to decompose work
 functions just as well at the program level.
 

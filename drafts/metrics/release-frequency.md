@@ -2,7 +2,6 @@
 title: Delivery Frequency
 ---
 
-
 How frequently per day the team releases changes to production.
 
 ### What is the intended behavior?

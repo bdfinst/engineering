@@ -2,7 +2,6 @@
 title: Integration Metrics Configuration
 ---
 
-
 Measuring the frequency of code integration matters because:
 
 - Frequent integration of small, tested changes introduces less risk in the pipeline.

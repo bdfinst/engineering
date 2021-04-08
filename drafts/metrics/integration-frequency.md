@@ -2,7 +2,6 @@
 title: Code Integration Frequency
 ---
 
-
 The average number of production-ready pull requests a team closes per day, normalized by the number of developers on
 the team. On a team with 5 developers, healthy CI practice is
 at least 5.

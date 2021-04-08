@@ -2,7 +2,6 @@
 title: Deploy Metrics Configuration
 ---
 
-
 Measuring the frequency of production deployments matters because:
 
 - Frequent deployments of small changes indicate less risk in the pipeline

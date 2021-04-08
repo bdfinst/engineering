@@ -2,7 +2,6 @@
 title: Development Cycle Time
 ---
 
-
 The average time from starting work until release to production.
 
 ### What is the intended behavior?

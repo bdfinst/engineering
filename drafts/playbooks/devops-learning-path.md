@@ -2,7 +2,6 @@
 title: DevOps Learning Path
 ---
 
-
 These are the core skills we recommend everyone learn to execute CD.
 
 ## Behavior-Driven Development

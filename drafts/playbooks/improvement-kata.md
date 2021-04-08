@@ -2,7 +2,6 @@
 title: Improvement Kata
 ---
 
-
 The purpose of the improvement kata is to act as an exercise in order to
 overcome obstacles to your team's improvement goals.
 

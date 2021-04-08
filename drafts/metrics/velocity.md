@@ -2,7 +2,6 @@
 title: Velocity / Throughput
 ---
 
-
 This is measured by how many items were finished or how many story points were completed for a defined increment as a
 trend over time. This is commonly misunderstood to be a productivity metric. It is not.
 

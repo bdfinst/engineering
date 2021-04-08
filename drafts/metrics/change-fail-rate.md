@@ -2,7 +2,6 @@
 title: Change Fail Rate
 ---
 
-
 The percentage of changes that result in negative customer impact, or rollback.
 
 `changeFailRate = failedChangeCount / changeCount`
