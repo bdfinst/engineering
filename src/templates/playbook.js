@@ -1,14 +1,9 @@
+/* eslint-disable react/no-danger */
 import { graphql } from 'gatsby'
 import React from 'react'
-import styled from 'styled-components'
 
 import Layout from '../components/NavLayout'
-import PostTags from '../components/PostTags'
 import PostWrapper from '../components/PostWrapper'
-
-const StyledTag = styled.span`
-  font-style: italic;
-`
 
 const BlogPosts = ({ data }) => {
   const post = data.markdownRemark
