@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Metrics Definitions
 ---
 
@@ -63,5 +65,3 @@ quality issues will be found and the smaller those issues will be.
 - [Lead Time](./lead-time.html): Total time from when a request is made until it is delivered. KPI for team over-utilization.
   As the team's utilization approaches 100%, this metric approaches infinity.
 - [Work In Process (WIP)](./work-in-progress.html): Key flow metric. Excessive WIP results in rework and delivery delays.
-
-{% include metrics-footer.html %}

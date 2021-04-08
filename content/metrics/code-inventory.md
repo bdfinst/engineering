@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Code Inventory
 ---
 
@@ -26,5 +28,3 @@ manual steps that add risk.
 Metrics to use in combination with this metric to prevent unintended consequences.
 
 - [Quality](./quality.html) can decrease as quality steps are skipped or batch size increases.
-
-{% include metrics-footer.html %}

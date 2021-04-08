@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Change Fail Rate
 ---
 
@@ -33,5 +35,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
 
 - ["Accelerate" Ch2: Measuring
   Performance](https://learning.oreilly.com/library/view/accelerate/9781457191435/13-ch2.xhtml) - Nicole Forsgren PhD, Jez Humble & Gene Kim
-
-{% include metrics-footer.html %}

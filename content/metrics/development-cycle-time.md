@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Development Cycle Time
 ---
 
@@ -37,5 +39,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
   Performance](https://learning.oreilly.com/library/view/accelerate/9781457191435/13-ch2.xhtml) - Nicole Forsgren PhD, Jez Humble & Gene Kim
 - Setting up a Jira [Control Chart](../playbooks/control-chart.html) to measure
   Development Cycle Time.
-
-{% include metrics-footer.html %}

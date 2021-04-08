@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Average Build Downtime
 ---
 
@@ -29,5 +31,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
 
 - [Integration Frequency](./integration-frequency.html) decreases as additional manual or automated process overhead is
   added before integration to trunk.
-
-{% include metrics-footer.html %}

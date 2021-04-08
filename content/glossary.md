@@ -10,10 +10,9 @@ tags:
 - [Continuous Delivery](#continuous-delivery)
 - [Continuous Deployment](#continuous-deployment)
 - [Continuous Integration](#continuous-integration)
-- [Definition of Done](#definition-of-done)
-- [Vertical Sliced Story](#vertical-sliced-story)
-- [Ready to Start](#ready-to-start)
 - [Toil](#toil)
+- [Vertical Sliced Story](#vertical-sliced-story)
+- [WIP](#wip)
 
 ## Continuous Delivery
 
@@ -41,10 +40,12 @@ changes to trunk very frequently or at least once per day. Trunk is kept ready t
 Excerpt From: Jez Humble & David Farley. "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
 Automation."
 
-## Definition of Done
+## Toil
 
-- Feature: All stories are deployed to production.
-- Story: All agreed behaviors are implemented and the story is deployed to production.
+The repetitive, predictable, constant stream of tasks related to
+maintaining an application.
+
+[SRE Workbook: Eliminating Toil](https://landing.google.com/sre/workbook/chapters/eliminating-toil/)
 
 ## Vertical Sliced Story
 
@@ -57,18 +58,6 @@ Examples:
 - Submitting a search term and returning results.
 - Requesting user information from a service and receiving a response.
 
-## Ready to Start
+## WIP
 
-- Testable acceptance criteria.
-- Dependencies noted so that can be appropriately coded around, if required.
-- Tasks decomposed to allow a maximum number of team members to swarm.
-- All contract changes documented for contract test changes.
-
-## Toil
-
-The repetitive, predictable, constant stream of tasks related to
-maintaining an application.
-
-[SRE Workbook: Eliminating Toil](https://landing.google.com/sre/workbook/chapters/eliminating-toil/)
-
-{% include playbooks-footer.html %}
+Work in progress is any work that has been started but not delivered to the end-user

@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Quality
 ---
 
@@ -27,5 +29,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
 - [Delivery frequency](./release-frequency.html) may reduce if more manual quality steps are added
 - [Build cycle time](./build-duration.html) may increase as additional tests are added to the pipeline
 - [Lead time](./lead-time.html) can increase as more time is spent on business analysis
-
-{% include metrics-footer.html %}

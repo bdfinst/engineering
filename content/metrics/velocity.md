@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Velocity / Throughput
 ---
 
@@ -37,5 +39,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
 ## References
 
 [Harvard Business Review: Six Myths of Product Development](https://hbr.org/2012/05/six-myths-of-product-development)
-
-{% include metrics-footer.html %}

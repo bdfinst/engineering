@@ -1,5 +1,8 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
+weight: 1
 title: Metrics Cheat Sheet
 ---
 
@@ -29,5 +32,3 @@ delivery system health.
 | -------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Code Coverage](./code-coverage.html)  | Hygieia (Sonar) | The % of code that us executed by test code                                                      | Prevent unexpected reduction of code coverage. Find code that should be better tested                                          | When coverage goals are set, can generate tests that meet the goals but are ineffective as tests.                                                   |
 | [Velocity/Throughput](./velocity.html) | Jira            | The number of story points (Velocity) or tasks (Throughput) completed during a increment of time | Allow planning for the future based on the relative complexity of pending work compared to what has been previously delivered. | When used as a performance metric instead of as a planning metric, it ceases to have value for planning and give a false indication of performance. |
-
-{% include metrics-footer.html %}

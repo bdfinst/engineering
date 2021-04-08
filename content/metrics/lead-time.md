@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Lead Time
 ---
 
@@ -35,5 +37,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
 ### References
 
 - [InnerSourcing](https://paypal.github.io/InnerSourceCommons/).
-
-{% include metrics-footer.html %}

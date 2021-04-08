@@ -31,6 +31,7 @@ const ContentMenu = () => {
             title
             tags
             menus
+            weight
             menuTitle
           }
         }
@@ -40,17 +41,23 @@ const ContentMenu = () => {
 
   const { nodes } = Pages.allMarkdownRemark
 
-  const menuEntry = (name, path, menus = []) => ({
+  const menuEntry = (name, path, menus, weight) => ({
     name,
     pathRaw: path,
-    menus,
+    menus: menus || [],
+    weight: weight || 99,
     key: `${path}-${uuid()}`,
   })
 
   const menuItems = nodes.map(node => {
     const name = node.frontmatter.menuTitle || node.frontmatter.title
 
-    return menuEntry(name, node.fields.slug, node.frontmatter.menus)
+    return menuEntry(
+      name,
+      node.fields.slug,
+      node.frontmatter.menus,
+      node.frontmatter.weight,
+    )
   })
 
   const onlyUnique = (value, index, self) => self.indexOf(value) === index
@@ -60,6 +67,9 @@ const ContentMenu = () => {
     .flat()
     .filter(onlyUnique)
     .sort()
+
+  const compareTitle = (a, b) => (a.name > b.name ? 1 : -1)
+  const compareWeight = (a, b) => Number(a.weight) - Number(b.weight)
 
   const getMenuSubItems = menu =>
     menuItems
@@ -71,7 +81,13 @@ const ContentMenu = () => {
       })
       .flat()
       .filter(item => item !== undefined)
-      .sort((a, b) => (a.name > b.name ? 1 : -1))
+      .sort(
+        (obj1, obj2) =>
+          // First sort by age.
+          // If comparison by age returns 0 (they are the same age):
+          // then compare by name.
+          compareWeight(obj1, obj2) || compareTitle(obj1, obj2),
+      )
 
   const parentMenu = parentMenuList.map(menu => ({
     name: menu,

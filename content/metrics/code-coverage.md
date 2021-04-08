@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Code Coverage
 ---
 
@@ -59,5 +61,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
   chasing the coverage metric.
 - [Quality](./quality.html) decreases as poor quality tests hide lack of real code
   coverage.
-
-{% include metrics-footer.html %}

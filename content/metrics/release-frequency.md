@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Delivery Frequency
 ---
 
@@ -31,5 +33,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
 
 - [Change Fail Rate](./change-fail-rate.html) increases as focus shifts to speed instead of quality.
 - [Quality](./quality.html) decreases if steps are skipped in refining work for the sake of output.
-
-{% include metrics-footer.html %}

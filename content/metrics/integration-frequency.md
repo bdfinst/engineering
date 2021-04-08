@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Code Integration Frequency
 ---
 
@@ -38,5 +40,3 @@ Metrics to use in combination with this metric to prevent unintended consequence
 - [Trunk Based Development](https://trunkbaseddevelopment.com/)
 - [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
 - [Feature Flagging](https://martinfowler.com/articles/feature-toggles.html)
-
-{% include metrics-footer.html %}

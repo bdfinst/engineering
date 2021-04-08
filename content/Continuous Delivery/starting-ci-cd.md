@@ -1,13 +1,11 @@
 ---
-published: false
+published: true
 title: Getting Started with CI/CD
 menus:
   - Continuous Delivery
 tags:
   - cd
 ---
-
-<img src="../../assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
 
 - [Introduction to CI/CD](#introduction-to-cicd)
 - [Goals](#goals)
@@ -28,26 +26,28 @@ tags:
 
 ## Introduction to CI/CD
 
-The path to [Continuous Integration](./glossary.html#continuous-integration)
+The path to [Continuous Integration](../../glossary.html#continuous-integration)
 and [Continuous Delivery](./glossary.html#continuous-delivery) may seem
-daunting or confusing
+daunting
 to teams that are just starting out. We offer this guide to getting
-started with a focus on outcomes metrics to track progress.
+started with a focus on outcome metrics to track progress.
 
 Continuous Delivery is far more than automation. It is the entire cycle of identifying value, delivering the value, and verifying
 with the end user that we delivered the expected value. The shorter we can make that feedback loop, the better our bottom line will
 be.
 
-<a href="../assets/img/devops-dojo/CD Pipeline Full.png" target="_blank">
-  <img src="../assets/img/devops-dojo/CD Pipeline Full.png" width="100%">
+<a href="../../CD Pipeline Full - transparent.png" target="_blank">
+  <img src="../../CD Pipeline Full - transparent.png" width="100%">
 </a>
 
 ---
 
 ## Goals
 
-Both CI and CD are behaviors intended to improve certain goals. CI is the first driver of improvement because it is very effective
-at uncovering waste and constraints within the team's processes so that the team can improve them.
+Both CI and CD are behaviors intended to improve certain goals. CI is very effective
+at uncovering issues in work decomposition and testing within the team's processes so that the team can improve them. CD
+is effective at uncovering external dependencies and test architecture issues. The overall goal of CD is to improve
+quality feedback loops to alert the team to issues as rapidly and as close to the kepboard as possible.
 
 ### Continuous Integration
 
@@ -57,9 +57,9 @@ This working agreement for CI puts focus on developing teamwork and delivering q
 - Branches are deleted in less than 24 hours.
 - Changes must be tested and not break existing tests before merging to trunk.
 - Changes are not required to be "feature complete".
-- Helping the team complete work in progress is more important than starting
+- Helping the team complete work in progress (code review, pairing) is more important than starting
   new work.
-- Fixing a broken build is the team’s highest priority.
+- Fixing a broken build is the team's highest priority.
 
 **Desired outcomes:**
 
@@ -90,7 +90,7 @@ This working agreement for CI puts focus on developing teamwork and delivering q
 
 | Issue                 | Description                                      | Good Practice                                                                                                                     |
 | --------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Unclear requirements  | Stories without testable acceptance criteria     | Work should be defined with acceptance tests to make developer driven testing function correctly.                                 |
+| Unclear requirements  | Stories without testable acceptance criteria     | Work should be defined with acceptance tests to improve clarity and enable developer driven testing.                              |
 | Long development Time | Stories take too long to deliver to the end user | Use BDD to decompose work to testable acceptance criteria to find smaller deliverables that can be completed in less than 2 days. |
 
 #### Workflow Management

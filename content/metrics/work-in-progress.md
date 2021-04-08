@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: WIP
 ---
 
@@ -25,5 +27,3 @@ Focus the team on finishing work and delivering it rather than switching between
 - Update incomplete work to "done" before it is delivered to production.
 - Create stories for each step of development instead of for value to be delivered.
 - Do not update work to "in progress" when working on it.
-
-{% include metrics-footer.html %}

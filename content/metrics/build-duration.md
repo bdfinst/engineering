@@ -1,5 +1,7 @@
 ---
-published: false
+menus:
+  - Metrics
+published: true
 title: Build Cycle Time
 ---
 
@@ -28,5 +30,3 @@ and create more opportunity for defect penetration.
 Metrics to use in combination with this metric to prevent unintended consequences.
 
 - [Quality](./quality.html) decreases if testing steps are skipped.
-
-{% include metrics-footer.html %}
