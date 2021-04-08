@@ -1,4 +1,5 @@
 ---
+published: false
 title: Integration Testing
 menus:
   - Test Architecture

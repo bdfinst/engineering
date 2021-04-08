@@ -1,4 +1,5 @@
 ---
+published: false
 title: Defining Product Goals
 menus:
   - Work Decomposition

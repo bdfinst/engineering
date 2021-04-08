@@ -1,4 +1,5 @@
 ---
+published: false
 title: DevOps Learning Path
 ---
 

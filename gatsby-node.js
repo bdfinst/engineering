@@ -19,7 +19,10 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve) => {
     graphql(`
       {
-        allMarkdownRemark(sort: { fields: [frontmatter___title], order: ASC }) {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___title], order: ASC }
+          filter: { frontmatter: { published: { eq: true } } }
+        ) {
           edges {
             node {
               id
@@ -32,6 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
                 tags
                 menus
                 menuTitle
+                published
               }
             }
           }

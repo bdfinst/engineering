@@ -1,4 +1,5 @@
 ---
+published: false
 title: Component Functional Testing
 menus:
   - Test Architecture

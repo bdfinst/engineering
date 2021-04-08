@@ -1,4 +1,5 @@
 ---
+published: false
 title: CD Best Practices
 menus:
   - Continuous Delivery

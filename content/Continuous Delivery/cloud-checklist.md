@@ -1,4 +1,5 @@
 ---
+published: false
 title: Cloud Native Checklist
 menus:
   - Continuous Delivery

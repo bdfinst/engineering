@@ -1,4 +1,5 @@
 ---
+published: false
 title: Task Decomposition
 menus:
   - Work Decomposition

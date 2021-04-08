@@ -1,4 +1,5 @@
 ---
+published: false
 title: Story Slicing
 menus:
   - Work Decomposition

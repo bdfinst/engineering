@@ -1,4 +1,5 @@
 ---
+published: false
 title: Work Decomposition
 menus:
   - Work Decomposition

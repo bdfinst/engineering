@@ -1,4 +1,5 @@
 ---
+published: false
 title: Contract Driven Development
 menus:
   - Work Decomposition

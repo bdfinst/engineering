@@ -1,4 +1,5 @@
 ---
+published: false
 title: Designing Tests for CI/CD
 menus:
   - Test Architecture

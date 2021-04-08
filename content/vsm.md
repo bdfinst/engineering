@@ -1,4 +1,5 @@
 ---
+published: false
 title: Value Stream Mapping
 menus:
   - Process Analysis

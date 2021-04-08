@@ -1,4 +1,5 @@
 ---
+published: false
 title: Team Glossary
 menus:
   - Work Decomposition
