@@ -7,16 +7,41 @@ tags:
   - cd
 ---
 
+The following are very frequent issues that teams encounter that become critical roadblocks to [continuous delivery](../../glossary#continuous-delivery)
+
 ## Work Breakdown
 
 ### Stories without testable acceptance criteria
 
-- All stories should be defined with acceptance tests to make developer driven testing function correctly.
-- Acceptance tests define "done" for the story.
+- All stories should be defined with declarative and testable acceptance criteria. This dramatically reduces the amount
+  of waiting and rework once coding begins and enables a much smoother testing workflow.
+- Acceptance criteria should define "done" for the story. No behavior other than that specificed by the acceptance
+  criteria should be implemented. This prevents scope creep and gold-plating and makes delivery much more consistant.
 
 ### Stories too large
 
-- Stories represent a single, small, observable behavior change. Stories should require no more than two days for a team to deliver.
+- Stories represent the smallest user observable behavior change. To enable rapid feedback, higher quality acceptance
+  criteria, and more predictable delivery, Stories should require no more than two days for a team to deliver.
+
+### No definition of "ready"
+
+Teams should have a working agreement about the definition of "ready" for a story or task. Until the team agrees it has
+the information it needs, no commitments should be made and the story should not be added to the "ready" backlog.
+
+Example:
+
+```
+Definition of Ready
+
+- Story
+  - Acceptance criteria aligned with the value statement agreed to and understood.
+  - Dependencies noted and resolution process for each in place
+  - Spikes resolved.
+
+- Task
+  - Contract changes documented
+  - Component acceptance tests defined
+```
 
 ## Workflow Management
 

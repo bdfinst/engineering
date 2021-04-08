@@ -12,6 +12,10 @@ import React from 'react'
 
 const useStyles = makeStyles({
   menuItem: {},
+  link: {
+    textDecoration: 'none',
+    color: 'blue',
+  },
 })
 
 const ContentMenuItem = ({ name, pathRaw, subItems = [] }) => {
@@ -31,7 +35,7 @@ const ContentMenuItem = ({ name, pathRaw, subItems = [] }) => {
       {isExpandable ? (
         <ListItemText primary={name} />
       ) : (
-        <Link to={pathRaw}>
+        <Link className={classes.link} to={pathRaw}>
           <ListItemText primary={name} />
         </Link>
       )}

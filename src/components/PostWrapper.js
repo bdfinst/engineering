@@ -3,8 +3,8 @@ import styled from 'styled-components'
 const PostWrapper = styled.div`
   margin: auto;
   padding: 30px;
-  // max-width: 720px;
-  font-size: 14px;
+  max-width: 80vw;
+  font-size: 1em;
 
   @media (max-width: 414px) {
     padding: 70px 16px 0;
@@ -12,6 +12,27 @@ const PostWrapper = styled.div`
 
   h1 {
     margin: 0.25em 0;
+    font-size: 3em;
+  }
+
+  h2 {
+    margin: 0.25em 0;
+    font-size: 2em;
+  }
+
+  h3 {
+    margin: 0.25em 0;
+    font-size: 1.7em;
+  }
+
+  h4 {
+    margin: 0.25em 0;
+    font-size: 1.7em;
+  }
+
+  h4 {
+    margin: 0.25em 0;
+    font-size: 1.7em;
   }
 
   .datetime {

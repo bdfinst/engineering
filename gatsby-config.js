@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Platform One Engineering Practices`,
-    description: `Recommendations for teams wanting to deliver high-value applications using Platform One`,
-    author: `Platform One`,
+    title: 'Platform One Engineering Practices',
+    description:
+      'Recommendations for teams wanting to deliver high-value applications using Platform One',
+    author: 'Platform One',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `@dream-bit-de/gatsby-plugin-better-page-tree`,
-
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-catch-links',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
+        name: 'images',
         path: `${__dirname}/src/images`,
       },
     },
@@ -26,6 +26,8 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-check-links',
+          'gatsby-remark-autolink-headers',
           {
             resolve: 'gatsby-remark-prismjs',
             options: {
@@ -35,25 +37,25 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/site-icon.png`, // This path is relative to the root of the site.
+        name: 'gatsby-starter-default',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+        icon: 'src/images/site-icon.png', // This path is relative to the root of the site.
       },
     },
     {
-      resolve: `gatsby-plugin-material-ui`,
+      resolve: 'gatsby-plugin-material-ui',
     },
 
-    `gatsby-plugin-offline`,
+    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-local-search',
       options: {
@@ -103,7 +105,7 @@ module.exports = {
 
         // Function used to map the result from the GraphQL query. This should
         // return an array of items to index in the form of flat objects
-        // containing properties to index. The objects must contain the `ref`
+        // containing properties to index. The objects must contain the 'ref'
         // field above (default: 'id'). This is required.
         normalizer: ({ data }) =>
           data.allMarkdownRemark.nodes.map(node => ({
