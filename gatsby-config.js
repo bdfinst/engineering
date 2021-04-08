@@ -106,7 +106,7 @@ module.exports = {
         // containing properties to index. The objects must contain the `ref`
         // field above (default: 'id'). This is required.
         normalizer: ({ data }) =>
-          data.allMarkdownRemark.nodes.map((node) => ({
+          data.allMarkdownRemark.nodes.map(node => ({
             id: node.id,
             path: node.frontmatter.path,
             title: node.frontmatter.title,

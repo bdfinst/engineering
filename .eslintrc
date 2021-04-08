@@ -9,7 +9,6 @@
   "ignorePatterns": [
     "**/*.test.js",
     "**/*.spec.js",
-    "/cypress/**/*.js",
     "/build/**/*.js"
   ],
   "rules": {

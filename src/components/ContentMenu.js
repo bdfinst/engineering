@@ -47,7 +47,7 @@ const ContentMenu = () => {
     key: `${path}-${uuid()}`,
   })
 
-  const menuItems = nodes.map((node) => {
+  const menuItems = nodes.map(node => {
     const name = node.frontmatter.menuTitle || node.frontmatter.title
 
     return menuEntry(name, node.fields.slug, node.frontmatter.menus)
@@ -56,24 +56,24 @@ const ContentMenu = () => {
   const onlyUnique = (value, index, self) => self.indexOf(value) === index
 
   const parentMenuList = menuItems
-    .map((node) => (node.menus && node.menus.length ? node.menus : []))
+    .map(node => (node.menus && node.menus.length ? node.menus : []))
     .flat()
     .filter(onlyUnique)
     .sort()
 
-  const getMenuSubItems = (menu) =>
+  const getMenuSubItems = menu =>
     menuItems
-      .map((node) => {
+      .map(node => {
         if (node.menus && node.menus.length) {
-          return node.menus.map((_menu) => (_menu === menu ? node : undefined))
+          return node.menus.map(_menu => (_menu === menu ? node : undefined))
         }
         return []
       })
       .flat()
-      .filter((item) => item !== undefined)
+      .filter(item => item !== undefined)
       .sort((a, b) => (a.name > b.name ? 1 : -1))
 
-  const parentMenu = parentMenuList.map((menu) => ({
+  const parentMenu = parentMenuList.map(menu => ({
     name: menu,
     pathRaw: '',
     key: menu,
@@ -81,7 +81,7 @@ const ContentMenu = () => {
   }))
 
   const noChildren = menuItems.filter(
-    (item) => !item.menus || item.menus.length === 0,
+    item => !item.menus || item.menus.length === 0,
   )
 
   const staticMenu = [menuEntry('Home', '/')]
@@ -91,7 +91,7 @@ const ContentMenu = () => {
   return (
     <>
       <List component="nav" className={classes.appMenu} disablePadding>
-        {staticMenu.map((node) => (
+        {staticMenu.map(node => (
           <ContentMenuItem
             name={node.name}
             pathRaw={node.pathRaw}

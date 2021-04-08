@@ -45,7 +45,7 @@ const ContentMenuItem = ({ name, pathRaw, subItems = [] }) => {
     <Collapse in={open} timeout="auto" unmountOnExit>
       <Divider />
       <List component="div" disablePadding>
-        {subItems.map((item) => (
+        {subItems.map(item => (
           <ContentMenuItem
             name={item.name}
             pathRaw={item.pathRaw}
