@@ -16,7 +16,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     graphql(`
       {
         allMarkdownRemark(sort: { fields: [frontmatter___title], order: ASC }) {
@@ -37,7 +37,7 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
-    `).then(result => {
+    `).then((result) => {
       const posts = result.data.allMarkdownRemark.edges
 
       posts.forEach(({ node }) => {

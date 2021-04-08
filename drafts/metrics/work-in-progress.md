@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: WIP
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Work in Progress (WIP) is the total work that has been started but not
 completed. This includes **all** work, defects, tasks, stories, etc.

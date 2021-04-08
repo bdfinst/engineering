@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Code Inventory
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The lines of code that have been changed but have not been delivered to production. This can be measured at several points in the
 delivery flow, starting with code not merged to trunk.

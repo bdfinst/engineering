@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Value Stream Architect
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Value Stream Architect is an emerging role in the industry.
 

@@ -1,12 +1,12 @@
 ---
-layout: wmt/docs
+
 title: Component Functional Testing
-side-navigation: cd-navigation.html
+menus: 
+    - Test Architecture
+tags:
+    - test
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Functional tests verify larger business behaviors. While unit tests seek to verify the behavior of a single unit of code, a
 functional test verifies a business scenario.

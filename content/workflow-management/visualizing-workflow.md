@@ -1,12 +1,12 @@
 ---
-layout: wmt/docs
+
 title: Visualizing Workflow
-side-navigation: cd-navigation.html
+menus: 
+    - Workflow Management
+tags:
+    - workflow management
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Making work visible to ourselves, as well as our stakeholders is imperative in
 our workflow management process. People are visual beings. Workflows give

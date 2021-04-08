@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Build Cycle Time
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The time from code commit to production deploy. This is the minimum time changes can be applied to production. This is
 referenced as "hard lead time" in Accelerate

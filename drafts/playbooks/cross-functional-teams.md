@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Cross Functional Teams
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Cross functional teams contain all of the capabilities to build, test, deploy,
 and operate their components without requiring handoffs. Every product team

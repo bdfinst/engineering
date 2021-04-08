@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Repo Reporting
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Building an excel [**Repository
 Reporting**](../../assets/Repo-Report-Excel.xlsx) file is a way the DevOps Dojo

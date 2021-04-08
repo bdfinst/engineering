@@ -1,12 +1,13 @@
 ---
-layout: wmt/docs
-title: Team Value Stream Mapping (VSM) Workshop
-side-navigation: cd-navigation.html
+
+title: Value Stream Mapping
+menus: 
+    - Process Analysis
+    - Workflow Management
+tags:
+    - cd
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The purpose of Value Stream Mapping Workshop is to understand all of the steps needed to
 deliver value from conception to production. We can then use it as a tool to

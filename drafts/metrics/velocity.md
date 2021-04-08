@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Velocity / Throughput
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 This is measured by how many items were finished or how many story points were completed for a defined increment as a
 trend over time. This is commonly misunderstood to be a productivity metric. It is not.

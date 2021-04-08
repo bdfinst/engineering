@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Metrics Cheat Sheet
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 ## Organizational Metrics
 
@@ -23,7 +18,7 @@ These metrics are important for teams and management to track the health of the 
 | [MTTR](./mean-time-to-repair.html)                          | Not Currently Instrumented                       | The time from when customer impact begins until it is resolved                                             | Improve the stability and resilience of both the application and the system of delivery                                                                      | Quality should not decrease                     |
 | [Quality](./quality.html)                                   | Not Currently Instrumented                       | Percentage of finished work that is unused, unstable, unavailable, or defective according to the end user. | Improve the stability and resilience of both the application and the system of delivery                                                                      | Delivery Frequency should not degrade           |
 | [Delivery Frequency](./release-frequency.html)              | Heimdall/Hygieia (Concord)                       | The frequency that changes are delivered to production                                                     | Reduce the size of delivered change, improve the feedback loop on quality and increase the speed of value delivery.                                          | Defect Rates should not degrade                 |
-| [Work in Progress](./work-in-progress.html)              | Jira                                             | The number of items in progress on the team relative to the size of the team                               | Reduce the number of items in progress so that the team can focus on completing work vs/ being busy.                                                         | Delivery frequency should not degrade           |
+| [Work in Progress](./work-in-progress.html)                 | Jira                                             | The number of items in progress on the team relative to the size of the team                               | Reduce the number of items in progress so that the team can focus on completing work vs/ being busy.                                                         | Delivery frequency should not degrade           |
 
 ## Team Metrics
 

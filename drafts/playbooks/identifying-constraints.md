@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Identifying Constraints
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Applying the Theory of Constraints is a way to identify the most important
 limiting factor that stands in the way of achieving a goal, and then

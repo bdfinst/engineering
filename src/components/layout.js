@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <div style={{ minHeight: '100vh', backgroundColor: '#FFF' }}>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div

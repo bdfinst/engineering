@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Defect Rate
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Defect rates are the number of defects created for an iteration of time relative to the number of changes being made.
 This should be tracked in every environment.

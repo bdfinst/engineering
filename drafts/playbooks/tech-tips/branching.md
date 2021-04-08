@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Branching for Continuous Integration
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 **_Trunk-based development, is a requirement for Continuous Integration._**
 

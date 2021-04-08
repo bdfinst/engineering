@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Quality
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Quality is measured as the percentage of finished work that is unused, unstable, unavailable, or defective according to the end user.
 

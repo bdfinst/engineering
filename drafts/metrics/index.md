@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Metrics Definitions
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Metrics are key to organizational improvement. If we do not measure, then any attempt at improvement is aimless.
 Metrics, like any tool, must be used correctly to drive the improvement we need. It's important to use metrics in

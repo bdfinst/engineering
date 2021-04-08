@@ -1,12 +1,12 @@
 ---
-layout: wmt/docs
+
 title: Contract Testing
-side-navigation: cd-navigation.html
+menus: 
+    - Test Architecture
+tags:
+    - test
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 ## Purpose
 

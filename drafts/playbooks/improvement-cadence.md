@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Improvement Cadence
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The purpose of this playbook is to give example of an improvement cadence that
 development teams may implement in an effort to become more cross-functional and

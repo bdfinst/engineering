@@ -1,12 +1,12 @@
 ---
-layout: wmt/docs
+
 title: Feedback Loops
-side-navigation: cd-navigation.html
+menus: 
+    - Workflow Management
+tags:
+    - workflow management
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The most important part of the workflow process are feedback loops, and how they affect
 the speed and quality of value delivery.

@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Contract Driven Development
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Contract-Driven Development is an approach to software construction combining
 ideas from [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract), from [Test-Driven

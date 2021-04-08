@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Change Fail Rate
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The percentage of changes that result in negative customer impact, or rollback.
 

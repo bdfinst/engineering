@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Source Ownership
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 **_Delivery and quality is being significantly impacted by teams sharing
 ownership of the source code and adding process overhead to make sure everyone knows

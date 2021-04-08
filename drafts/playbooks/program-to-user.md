@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: From Program to User Story
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Aligning priorities across multi-team products can be challenging. However, the process used at the team level to decompose work
 functions just as well at the program level.

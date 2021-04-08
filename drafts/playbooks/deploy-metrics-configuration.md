@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Deploy Metrics Configuration
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Measuring the frequency of production deployments matters because:
 

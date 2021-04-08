@@ -1,12 +1,12 @@
 ---
-layout: wmt/docs
+
 title: End to End Testing
-side-navigation: cd-navigation.html
+menus: 
+    - Test Architecture
+tags:
+    - test
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 End to end tests focus on verifying user journeys through a system. A properly designed test suite will have minimal end to end
 testing due to their cost and fragility.

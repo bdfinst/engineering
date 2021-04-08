@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: DevOps Learning Path
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 These are the core skills we recommend everyone learn to execute CD.
 

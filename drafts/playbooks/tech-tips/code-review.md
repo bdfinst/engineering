@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Code Review
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 As Wikipedia puts it, "Code review is systematic examination of computer
 source

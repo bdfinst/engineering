@@ -1,12 +1,13 @@
 ---
-layout: wmt/docs
+
 title: Designing Tests for CI/CD
-side-navigation: cd-navigation.html
+menus: 
+    - Test Architecture
+tags:
+    - test
+    - cd
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The purpose of a well designed test suite is to move the detection of any defect as close as possible to the source of the defect.
 Optimally, the individual developer who created the defect will be quickly informed so that they can learn how to prevent that

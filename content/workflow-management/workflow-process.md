@@ -1,12 +1,12 @@
 ---
-layout: wmt/docs
+
 title: Workflow Process
-side-navigation: cd-navigation.html
+menus: 
+    - Workflow Management
+tags:
+    - workflow management
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Workflow management is the processes we use to move things from started to done,
 as rapidly as possible in value sequence.

@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Average Build Downtime
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The average length of time between when a build breaks and when it is fixed.
 

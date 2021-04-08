@@ -28,7 +28,7 @@ const SearchBar = () => {
       </Formik>
       <h1>Results</h1>
       <ul>
-        {results.map(result => (
+        {results.map((result) => (
           <li key={result.id}>{result.title}</li>
         ))}
       </ul>

@@ -17,7 +17,7 @@ import ContentMenu from './ContentMenu'
 
 const drawerWidth = 240
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
   },

@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Delivery Frequency
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 How frequently per day the team releases changes to production.
 

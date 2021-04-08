@@ -1,17 +1,18 @@
 ---
-layout: wmt/docs
+
 title: Definition of Done
-side-navigation: cd-navigation.html
+menus: 
+    - Workflow Management
+    - Teamwork
+tags:
+    - teamwork
+    - workflow management
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 _Is it DONE, is it DONE DONE, or is it DONE DONE DONE?_
 
-Regardless of what level of organization your team is under, all teams need a
-Definition of Done. The Definition of Done is an agreement made between the team
+All teams need a Definition of Done. The Definition of Done is an agreement made between the team
 that a unit of work isn't actually complete without meeting certain conditions.
 
 ## Recommended Practices

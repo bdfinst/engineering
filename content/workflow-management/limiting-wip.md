@@ -1,12 +1,14 @@
 ---
-layout: wmt/docs
-title: Limiting Work in Progress
-side-navigation: cd-navigation.html
+
+title: Work in Progress
+menus: 
+    - Workflow Management
+    - Teamwork
+tags:
+    - workflow management
+    - teamwork
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 ## Why Limit WIP?
 

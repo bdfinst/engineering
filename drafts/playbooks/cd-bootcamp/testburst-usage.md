@@ -1,13 +1,8 @@
 ---
-layout: wmt/docs
 title: Test Burst
-side-navigation: cd-navigation.html
 ---
 
 <!-- ATTENTION: Linting messes with spaces on this site messing with the number list.-->
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The ASDA QE team has created [Testburst Report](http://asdaquality.walmart.com/scorecardNew/aboutautomationreports) to visualize
 test scripts and trends.

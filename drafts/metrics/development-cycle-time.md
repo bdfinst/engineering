@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Development Cycle Time
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The average time from starting work until release to production.
 

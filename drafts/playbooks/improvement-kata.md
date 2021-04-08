@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Improvement Kata
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 The purpose of the improvement kata is to act as an exercise in order to
 overcome obstacles to your team's improvement goals.

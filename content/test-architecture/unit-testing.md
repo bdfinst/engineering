@@ -1,12 +1,12 @@
 ---
-layout: wmt/docs
+
 title: Unit Testing
-side-navigation: cd-navigation.html
+menus: 
+    - Test Architecture
+tags:
+    - test
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 **_The smallest testable part of any component. Typically has only a few inputs and a single output._**
 

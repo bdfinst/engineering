@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Retrospective Playbook
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 **Retrospectives are critical** for teams that are serious about continuous
 improvement. They allow the team an opportunity to take a moment to inspect and

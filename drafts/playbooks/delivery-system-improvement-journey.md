@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Improving Pipeline Architecture
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Whenever teams or areas want to improve their ability to deliver, there is a recommended order of operations to ensure the
 improvement is effective. This value stream improvement journey's goal is to provide the steps and guide you to good implementation

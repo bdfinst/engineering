@@ -1,19 +1,19 @@
 ---
-layout: wmt/docs
+
 title: Unplanned Work
-side-navigation: cd-navigation.html
+menus: 
+    - Workflow Management
+tags:
+    - workflow management
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Unplanned work is any interruption that prevents one from finishing something
 or from stopping at a better breaking point. It increases uncertainty in the system,
 and makes the system less predictable as a result.
 
 There are times when unplanned work is necessary and understandable, but you
-should be weary of increased risk, uncertainty, and reduced predictabiliy.
+should be weary of increased risk, uncertainty, and reduced predictability.
 
 ---
 

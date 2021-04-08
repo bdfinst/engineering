@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: Code Coverage
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Measure of the amount of code that is executed by test code.
 

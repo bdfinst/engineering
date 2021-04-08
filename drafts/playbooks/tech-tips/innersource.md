@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: InnerSource Development
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 InnerSource development uses the practices of open source development to enable teams to contribute to each other's development efforts in a safe and controlled manner. This allows cross-training, builds cooperation, reduces silos, and enables the ability to flex effort when needed while maintaining quality ownership.
 

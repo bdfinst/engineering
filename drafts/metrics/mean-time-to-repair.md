@@ -1,12 +1,7 @@
 ---
-layout: wmt/docs
 title: MTTR
-side-navigation: cd-navigation.html
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 Mean Time to Repair is the average time between when a incidents is
 detected and when it is resolved.

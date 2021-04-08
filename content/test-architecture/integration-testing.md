@@ -1,12 +1,12 @@
 ---
-layout: wmt/docs
+
 title: Integration Testing
-side-navigation: cd-navigation.html
+menus: 
+    - Test Architecture
+tags:
+    - test
 ---
 
-<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-# {{ page.title }}
 
 An integration test is a deterministic test to verify how the unit under test interacts with other units without directly accessing external sub-systems. For the purposes of clarity, “integration test” is not a test that broadly integrates multiple sub-systems. That is an E2E test.
 
