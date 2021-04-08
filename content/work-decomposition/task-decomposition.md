@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Task Decomposition
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 ## What does a good task look like?
 
@@ -43,5 +40,3 @@ checklist for completing a development task.
   faster
 
 ---
-
-

@@ -1,10 +1,10 @@
 ---
+published: false
 title: CD Best Practices
-menus: 
-    - Continuous Delivery
-weight: 99
+menus:
+  - Continuous Delivery
 tags:
-    - cd
+  - cd
 ---
 
 ## Focus on hardening pipeline

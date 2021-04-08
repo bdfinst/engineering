@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Spikes
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 Spikes are an exploration of potential solutions for work that is unestimatable,
 unknown, or overly complex.
@@ -37,5 +34,3 @@ can be considered for upcoming iterations.
 - Stay within the parameters of the spike. Anything else is considered a waste.
 
 ---
-
-

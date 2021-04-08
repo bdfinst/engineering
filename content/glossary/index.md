@@ -1,9 +1,10 @@
 ---
+published: false
 title: Definition of Terms
 menus:
-      - Glossary
+  - Glossary
 tags:
-      - glossary
+  - glossary
 ---
 
 - [Continuous Delivery](#continuous-delivery)

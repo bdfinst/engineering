@@ -1,14 +1,9 @@
+/* eslint-disable react/no-danger */
 import { graphql } from 'gatsby'
 import React from 'react'
-import styled from 'styled-components'
 
-import Layout from '../components/layout'
-import PostTags from '../components/PostTags'
+import Layout from '../components/NavLayout'
 import PostWrapper from '../components/PostWrapper'
-
-const StyledTag = styled.span`
-  font-style: italic;
-`
 
 const BlogPosts = ({ data }) => {
   const post = data.markdownRemark
@@ -16,13 +11,12 @@ const BlogPosts = ({ data }) => {
   return (
     <Layout>
       <PostWrapper>
-        <span className="datetime">{post.frontmatter.date}</span>
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr />
-        <p>
+        {/* <p>
           <StyledTag>Tags</StyledTag>: <PostTags tags={post.frontmatter.tags} />
-        </p>
+        </p> */}
       </PostWrapper>
     </Layout>
   )

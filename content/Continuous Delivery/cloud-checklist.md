@@ -1,13 +1,11 @@
 ---
+published: false
 title: Cloud Native Checklist
-menus: 
-    - Continuous Delivery
+menus:
+  - Continuous Delivery
 tags:
   - cd
 ---
-
-
-
 
 - [Cloud Native checklist](#cloud-native-checklist)
 - [Principles and Practices](#principles-and-practices)

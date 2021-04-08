@@ -20,7 +20,7 @@ const ContentMenu = () => {
       allMarkdownRemark(
         filter: {
           fields: { slug: { ne: "/", regex: "/^((?!404).)*$/" } }
-          frontmatter: {}
+          frontmatter: { published: { eq: true } }
         }
       ) {
         nodes {
@@ -81,7 +81,7 @@ const ContentMenu = () => {
   }))
 
   const noChildren = menuItems.filter(
-    item => !item.menus || item.menus.length === 0
+    item => !item.menus || item.menus.length === 0,
   )
 
   const staticMenu = [menuEntry('Home', '/')]

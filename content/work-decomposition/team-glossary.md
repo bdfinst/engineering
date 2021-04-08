@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Team Glossary
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 A glossary documents the agreed upon language used by the business for this
 specific business domain. Using the glossary, all artifacts will use the same

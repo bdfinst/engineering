@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Story Slicing
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 Story slicing is the activity of taking large stories and splitting them into
 smaller, more predictable deliveries. This allows the team to deliver higher
@@ -65,5 +62,3 @@ have sliced horizontally.
   activity are `1 in 2^n` where `n` is the number of hard dependencies.
 
 ---
-
-

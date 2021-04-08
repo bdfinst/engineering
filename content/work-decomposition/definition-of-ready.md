@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Definition of Ready
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 _Is it REALLY Ready?_
 
@@ -61,5 +58,3 @@ enforced, it's completely useless.
 4. The recommended DoR for CD is that any story can be completed, either by the team or a single developer, in 2 days or less
 
 ---
-
-

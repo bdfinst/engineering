@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Contract Driven Development
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 Contract Driven Development is the process of defining the contract changes
 between two dependencies during design and prior to construction. This allows
@@ -41,5 +38,3 @@ Contract tests should follow [Postel's Law](https://en.wikipedia.org/wiki/Robust
 - Always create contract tests before implementation of behavior.
 
 ---
-
-

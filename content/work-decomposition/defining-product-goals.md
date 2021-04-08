@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Defining Product Goals
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 ## Product Goals
 
@@ -63,4 +60,3 @@ DevOps Dojo engagement.
   value, the requirements, measure of success, and the time frame associated to completion.
 
 ---
-

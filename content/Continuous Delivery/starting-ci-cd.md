@@ -1,14 +1,13 @@
 ---
+published: false
 title: Getting Started with CI/CD
-menus: 
-    - Continuous Delivery
+menus:
+  - Continuous Delivery
 tags:
   - cd
 ---
 
 <img src="../../assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
-
-
 
 - [Introduction to CI/CD](#introduction-to-cicd)
 - [Goals](#goals)
@@ -160,7 +159,6 @@ steps that should be done whenever starting the CD journey.
   - Fixing a broken build is the team's highest priority.
 </pre>
 
-
 - Build and continuously improve a single CI/CD automated pipeline for each
   repository. There should only be a single configuration for each repository
   that will deploy to all test and production environments.
@@ -215,4 +213,3 @@ See [CD best practices](./cd-best-practices.html) and [CD anti-patterns](./cd-an
 - [Jez Humble: Continuous Delivery sounds great, but it won't work here @ DevOn Summit 2017](https://www.youtube.com/watch?v=837Z_oehhRg)
 
 ---
-

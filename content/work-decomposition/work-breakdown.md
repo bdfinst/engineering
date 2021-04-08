@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Work Decomposition
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 In order to effectively understand and implement the work breakdown flow, the
 team needs to have the following prerequisites and understandings.

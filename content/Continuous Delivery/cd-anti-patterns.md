@@ -1,10 +1,10 @@
 ---
+published: true
 title: CD Anti-patterns
-menus: 
-    - Continuous Delivery
-weight: 1
+menus:
+  - Continuous Delivery
 tags:
-    - cd
+  - cd
 ---
 
 ## Work Breakdown

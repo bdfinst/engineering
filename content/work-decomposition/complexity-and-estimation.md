@@ -1,13 +1,10 @@
 ---
-
+published: false
 title: Complexity and Estimation
 menus:
   - Work Decomposition
 tags: [pending]
 ---
-
-
-
 
 When refining work, teams should focus on reducing complexity, minimizing
 dependencies, and estimating based on complexity and effort, not time.
@@ -51,4 +48,3 @@ solutions.
 - Track estimates against actual to see how consistent the team is.
 
 ---
-
