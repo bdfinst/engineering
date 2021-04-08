@@ -1,0 +1,69 @@
+---
+layout: wmt/docs
+title: Complexity and Estimation
+side-navigation: cd-navigation.html
+---
+
+<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
+
+# {{ page.title }}
+
+When refining work, teams should focus on reducing complexity, minimizing
+dependencies, and estimating based on complexity and effort, not time.
+
+Small things can be estimated more accurately than big things because the margin
+of error is lower and dependencies are clear. Eliminating or reducing
+hard dependencies is critical because the probability that something will
+delivered late doubles for every hard dependency. Those
+could be database changes, coordination with other teams, or changes that are
+tightly coupled with another component.
+
+Example: if the deliverable has 3 hard dependencies, there is a 1 in 8 chance it
+will deliver as estimated.
+
+---
+
+## Recommended Practices
+
+Decompose stories using [Behavior Driven Development](./behavior-driven-development.html).
+This not only helps with feature discovery and with uncovering dependencies, but
+also aids with [story slicing](./story-slicing.html) since each acceptance test
+is naturally a thin, vertical
+slice.
+
+Prior to refining, use relative sizing to project order of magnitude estimates
+for delivery. However, these should not be used for commitments. Committing to
+unrefined deliveries increases team allocation with re-work and "Date Driven
+Development", reduces quality, and lowers end user satisfaction.
+
+To avoid hard dependencies, first slice stories as small as possible to minimize
+the number of possible dependencies. After that, attempt to make any hard
+dependencies "soft" with feature flags, API versioning, or other coding
+solutions.
+
+### Tips
+
+- Use [Cynefin](https://en.wikipedia.org/wiki/Cynefin_framework) to aid in
+  estimating complexity.
+- If the team does not agree with the estimate, refine further. Avoid "averaging"
+  the team's estimate.
+- Track estimates against actual to see how consistent the team is.
+
+---
+
+## Value
+
+As a development team, we want to be predictable so that we can project delivery
+with a high level of certainty.
+
+### Acceptance Criteria
+
+- The estimate should be small. Less than 2 days is recommended.
+- Relative complexity or t-shirt sizing should be used for unrefined stories,
+  not days or points.
+- Commitments are made against refined stories only.
+- Work only beings on fully refined tasks with a complexity of 1.
+
+---
+
+_[Back To Work Decomposition Journey](./work-breakdown.html)_

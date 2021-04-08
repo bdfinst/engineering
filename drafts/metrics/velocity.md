@@ -1,0 +1,46 @@
+---
+layout: wmt/docs
+title: Velocity / Throughput
+side-navigation: cd-navigation.html
+---
+
+<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
+
+# {{ page.title }}
+
+This is measured by how many items were finished or how many story points were completed for a defined increment as a
+trend over time. This is commonly misunderstood to be a productivity metric. It is not.
+
+### What is the intended behavior?
+
+After a team stabilizes, the standard deviation should be low. This will enable realistic planning of future
+deliverables based on relative complexity. Find ways to increase this over time by reducing waste, improving planning,
+and focusing on teamwork.
+
+### How to improve it
+
+- Reduce story size so they are easier to understand and more predictable.
+- Minimize hard dependencies. Each hard dependency reduces the odds of on-time
+  delivery by 50%.
+- Swarm stories by decomposing them into tasks that can be executed in parallel so that the team is working as a unit to deliver faster.
+
+### How to game it
+
+- Cherry pick easy, low priority items.
+- Increase story points
+- Skip quality steps.
+- Prematurely sign-off work only to have defects reported later.
+
+### Guardrail Metrics
+
+Metrics to use in combination with this metric to prevent unintended consequences.
+
+- [Quality](./quality.html) defect ratio goes up as more defects are reported.
+- [WIP](./work-in-progress.html) increases as teams start more work to look more
+  busy.
+
+## References
+
+[Harvard Business Review: Six Myths of Product Development](https://hbr.org/2012/05/six-myths-of-product-development)
+
+{% include metrics-footer.html %}

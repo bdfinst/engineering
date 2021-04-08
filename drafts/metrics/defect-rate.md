@@ -1,0 +1,39 @@
+---
+layout: wmt/docs
+title: Defect Rate
+side-navigation: cd-navigation.html
+---
+
+<img src="/assets/img/devops-dojo-motto.png" class="img-responsive" width="300px" />
+
+# {{ page.title }}
+
+Defect rates are the number of defects created for an iteration of time relative to the number of changes being made.
+This should be tracked in every environment.
+
+<b>Defect count / Delivery frequency / Time range</b>
+
+### What is the intended behavior?
+
+Use defect rates and trends to inform improvement of upstream quality processes.
+
+Defect rates in production indicate how effective our overall quality process is. Defect rates in lower environments inform us of
+specific areas where quality process can be improved. The goal is to push detection closer to the developer.
+
+### How to improve it
+
+Track trends over time and identify common issues for the defects Design test design changes that would reduce the time
+to detect defects.
+
+### How to game it
+
+- Mark defects as enhancement requests
+- Don't track defects
+- Deploy changes that do not modify the application to improve the percentage
+
+### Guardrail Metrics
+
+Metrics to use in combination with this metric to prevent unintended consequences.
+
+- [Delivery frequency](./release-frequency.html) is reduced if too much emphasis is place on zero defects. This can be
+  self-defeating as large change batches will contain more defects.
