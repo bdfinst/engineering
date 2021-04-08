@@ -93,5 +93,3 @@ Dev cycle time is the average time from starting work until release to productio
 ---
 
 See related [Playbooks](./index.html)
-
-{% include playbooks-footer.html %}

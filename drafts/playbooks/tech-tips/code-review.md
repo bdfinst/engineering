@@ -56,7 +56,3 @@ developers' skills."
 - CI tests run upon opening and modifying pull requests.
 
 ---
-
-_[Back To Bifrost](../../index.html)_
-
-{% include playbooks-footer.html %}

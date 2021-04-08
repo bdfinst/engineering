@@ -81,6 +81,4 @@ improve workflow efficiency.
 
 ## References
 
-[Making Work Visible](https://www.walmart.com/ip/Making-Work-Visible/56040750)
-
-_[Back To Workflow Management Journey](./workflow-process.html)_
+[Making Work Visible](https://itrevolution.com/book/making-work-visible/) - Dominica DeGrandis

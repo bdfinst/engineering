@@ -52,5 +52,3 @@ understand and implement the improvement goals of our team.
 - Understand your current and target conditions as the most important constraint your team is facing.
 - Commit to taking the steps necessary to reach your target condition.
 - Re-evaluate and revisit every cadence.
-
-{% include playbooks-footer.html %}

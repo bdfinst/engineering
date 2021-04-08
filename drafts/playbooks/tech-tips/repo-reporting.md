@@ -39,7 +39,3 @@ so they can also use this to measure your own teams overall health.
 - All columns will be green.
 
 ---
-
-_[Back To Bifrost](../../index.html)_
-
-{% include playbooks-footer.html %}

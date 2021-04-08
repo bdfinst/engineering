@@ -18,9 +18,6 @@ discussion that informs acceptance test driven development.
   - [BDD In Action](https://learning.oreilly.com/library/view/bdd-in-action/9781617291654/) by John Ferguson Smart
   - [Behavior-Driven Development with Cucumber: Better Collaboration for Better Software](https://learning.oreilly.com/library/view/behavior-driven-development-with/9780132748544/)
     by Richard Lawrence, Paul Rayner
-- Playbooks
-  - [Behavior Driven Development](https://devops.walmart.com/bifrost/playbooks/work-decomposition/behavior-driven-development.html)
-    by DevOps Dojo
 
 ## Continuous-Integration
 
@@ -35,9 +32,6 @@ Continuous integration is a requirement for CD. It requires very frequent integr
 - Recommended Reading
   - [Continuous Integration: Improving Software Quality and Reducing Risk](https://learning.oreilly.com/api/v1/dashboard/continue/9780321336385)
     by Paul M. Duvall, Steve Matyas, Andrew Glover.
-- Playbooks
-  - [Continuous-Integration](https://devops.walmart.com/bifrost/starting-ci-cd.html#continuous-integration) by DevOps Dojo.
-  - [Branching for Continuous Integration](https://devops.walmart.com/bifrost/playbooks/tech-tips/branching.html) by DevOps Dojo.
 
 ## Conway's law
 
@@ -61,8 +55,6 @@ This is another key design tool both for organizational and system design. This 
   - [Software Architecture: Domain-Driven Design](https://www.linkedin.com/learning/software-architecture-domain-driven-design/better-apps-with-domain-driven-design?u=26192810) LinkedIn Training Course.
 - Recommended Reading
   - [What Is Domain-Driven Design?](https://learning.oreilly.com/api/v1/dashboard/continue/9781492057802) by Vladik Khononov.
-- Presentations
-  - [Domain Driven Design](https://devops.walmart.com/presos/domain-driven-design/index.html#/) DevOps Dojo.
 
 ## Pipeline Steps
 
@@ -72,8 +64,6 @@ Architecting a system of delivery is about designing efficient quality gates for
   - [Understanding A DevOps Pipeline](https://www.youtube.com/watch?v=MnyvgFDh-kw) David Farley - 13:24 mins.
 - Recommended Reading
   - [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://learning.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/) Jez Humble and David Farley
-- Playbooks
-  - [Basic Concord Flow](https://devops.walmart.com/bifrost/playbooks/basic-concord-flow.html) DevOps Dojo
 
 ## Test-Driven Development (Design)
 
@@ -87,9 +77,6 @@ TDD highly correlates with application architecture that is easy to maintain and
   - [TDD and DDD with .NET Core and VSCode](https://www.youtube.com/watch?v=ORe0r4bpfac) - 1 hour
 - Recommended Reading
   - [Test Driven Development: By Example](https://learning.oreilly.com/library/view/test-driven-development/0321146530/) by Kent Beck.
-- Playbooks
-  - [Component Functional Testing](https://devops.walmart.com/bifrost/playbooks/testing-process/functional-testing.html) by DevOps Dojo.
-  - [Unit Testing](https://devops.walmart.com/bifrost/playbooks/testing-process/unit-testing.html) by DevOps Dojo.
 
 ## Three Ways
 
@@ -104,8 +91,6 @@ The core principles that define DevOps:
 - Recommended Reading
   - [The Three Ways: The Principles Underpinning DevOps](https://itrevolution.com/the-three-ways-principles-underpinning-devops/) by Gene Kim
   - [The DevOps Handbook](https://learning.oreilly.com/library/view/the-devops-handbook/9781457191381/DOHB-ch_01.xhtml/) co-author Gene Kim
-- Playbooks
-  - [The Three Ways](https://devops.walmart.com/overview/devops.html#the-three-ways) by DevOps Dojo.
 
 ## Value Stream Mapping
 
@@ -115,8 +100,6 @@ The primary process analysis tool used to help identify and attack constraints t
   - [How we used Value Stream Mapping to accelerate DevOps adoption](https://www.youtube.com/watch?v=OXMdSe1_wc0) Marcus Robinson - 45:26 min.
 - Recommended Reading
   - [Value Stream Mapping: How to Visualize Work and Align Leadership for Organizational Transformation](https://learning.oreilly.com/api/v1/dashboard/continue/9780071828918) - Karen Martin and Mike Osterling
-- Playbooks
-  - [Team Value Stream Mapping (VSM) Workshop](https://devops.walmart.com/bifrost/playbooks/vsm.html) - DevOps Dojo
 
 ## Wastes
 
@@ -127,5 +110,3 @@ Our goal is to remove waste daily. We ust first learn to recognize it.
 - Recommended Reading
   - [Making Work Visible](https://learning.oreilly.com/library/view/making-work-visible/9781457191428/10-part-1.xhtml) by Dominica DeGrandis.
   - [The Art of Lean Software Development](https://learning.oreilly.com/library/view/the-art-of/9780596155711/ch02.html) by Curt Hibbs; Mike Sullivan; Steve Jewett.
-- Playbook
-  - [Seven Wastes](https://devops.walmart.com/overview/devops.html#seven-wastes) by Devops Dojo

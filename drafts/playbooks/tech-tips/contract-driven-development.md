@@ -54,8 +54,6 @@ The goals of CDD are:
 
 ## References
 
-- [Contract Driven Development presentation](../../../presos/contract-driven-development/index.html)
-- [Testing Terms](https://engineering.walmart.com/docs/testing/glossary)
 - [Collaborative Contract Driven Development](https://www.youtube.com/watch?v=buJdbBNJARc)
 
 ## Value
@@ -70,13 +68,4 @@ other teams so that we can work faster together while increasing the quality to 
 - Both consumers and providers test on every build
 - API documentation is versioned and in machine readable format
 
-## Samples
-
-- [JavaScript Coding Sample](https://gecgithub01.walmart.com/strati/contract-test-example)
-- [Java Coding Sample](https://gecgithub01.walmart.com/strati/contract-test-examples-java)
-
 ---
-
-_[Back To Bifrost](../../index.html)_
-
-{% include playbooks-footer.html %}

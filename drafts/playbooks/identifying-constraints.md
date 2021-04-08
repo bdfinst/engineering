@@ -55,5 +55,3 @@ action to mitigate our bottlenecks and continuously improve our workflow.
 - Identify your biggest constraint.
 - Take steps to mitigate.
 - Revisit and evaluate your solution.
-
-{% include playbooks-footer.html %}

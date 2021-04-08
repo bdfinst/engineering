@@ -145,5 +145,3 @@ potential.
 
 It's a delicate balancing act that takes trust, respect, and empathy from all
 sides to come to win-win solutions.
-
-{% include playbooks-footer.html %}

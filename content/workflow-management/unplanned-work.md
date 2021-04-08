@@ -59,5 +59,3 @@ As a development team, we want to understand how to plan for unplanned work, so 
 risk and uncertainty for our deliverables.
 
 ---
-
-_[Back To Workflow Management Journey](./workflow-process.html)_

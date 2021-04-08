@@ -44,5 +44,3 @@ be delivered to our customers.
 - Use your Definition of Done as a tool to ensure quality stories are being
   released into production.
 - Revisit and evaluate your Definition of Done.
-
-{% include playbooks-footer.html %}

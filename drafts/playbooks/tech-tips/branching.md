@@ -50,7 +50,6 @@ The main reasons teams struggle with CI are:
 
 ## References
 
-- Don't forget to take the offered GitHub [Level 1](https://strati.walmart.com/training/classes/git-user-training-1.html) and [Level 2](https://strati.walmart.com/training/classes/git-user-training-2.html) trainings that is available through Strati.
 - [Trunk Based Development](https://trunkbaseddevelopment.com/).
 - [Branching by Abstraction](https://www.branchbyabstraction.com/).
 - [Feature Flags/Toggles](https://martinfowler.com/articles/feature-toggles.html).
@@ -84,7 +83,3 @@ also decreasing the time it takes to get feedback on our changes.
 - [Trunk Based Development- You're doing it wrong](https://trunkbaseddevelopment.com/youre-doing-it-wrong/)
 
 ---
-
-_[Back To Bifrost](../../index.html)_
-
-{% include playbooks-footer.html %}

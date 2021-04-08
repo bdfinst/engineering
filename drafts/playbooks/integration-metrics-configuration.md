@@ -16,20 +16,8 @@ is what the team agreed upon. While, also allowing the team to pivot sooner if n
 
 ## Recommended Practices
 
-- Ensure that all artifacts have the [Hygieia Code Repo
-  Widget](http://insights.walmart.com/docs/hygieia/widgets/code-repo-widget.html#code-repo-widget)
-  configured to point to the correct repository. This widget will be found on the
-  product dashboards of each artifact.
-- Ensure the code repo widget is point to the trunk branch.
 - Use trunk as the source of truth. Following a [Trunk Base Development](./tech-tips/branching.html) style
   will insure the data is accurate.
-
-## Tips
-
-- Having a correctly configured
-  [insights.yml](http://insights.walmart.com/docs/hygieia/metadata.html) file
-  will help with the auto onboarding processes.
-- You can reference [Teamroster Repo Alignment Playbook](./teamroster-repo-alignment.html) for more information.
 
 ## Value
 
@@ -43,7 +31,3 @@ and reduce waste.
 - Code repo widget correctly configured and populated.
 
 ---
-
-_[Back To Bifrost](../../index.html)_
-
-{% include playbooks-footer.html %}

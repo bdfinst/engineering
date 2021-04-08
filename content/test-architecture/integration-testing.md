@@ -22,7 +22,7 @@ Some examples of an integration test are validating how multiple units work toge
 </p>
 
 Integration is where most defects occur, so skipping integration tests should never happen. When integrating multiple units of code
-within the sub-system, integration tests can give you higher effective coverage with fewer tests. See [trophy test patter](http://testing.walmart.com/testsolutions/testing-practices/testing-terms.html#test-trophy)
+within the sub-system, integration tests can give you higher effective coverage with fewer tests.
 
 ## Recommended Practices
 
@@ -35,8 +35,6 @@ within the sub-system, integration tests can give you higher effective coverage 
 ## References
 
 - Martin Fowler's [Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-- [Testing Terms](http://testing.walmart.com/testsolutions/testing-practices/testing-terms.html)
-- [Testing Tools](http://testing.walmart.com/testsolutions/tools/index.html)
 
 ---
 

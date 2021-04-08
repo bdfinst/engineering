@@ -1,0 +1,130 @@
+[
+  {
+    "node": {
+      "id": "PageTree-Continuous Deliver-id-818d0f31-2d0f-4bb1-b72a-de608bddddca",
+      "name": "Continuous Delivery",
+      "pathRaw": "Continuous Delivery",
+
+      "children": [
+        {
+          "id": "PageTree-Continuous Delivery/cd-anti-patterns-id-b5f7d16c-ae3f-4e2f-b84e-5b5bb255f434",
+          "name": "Cd anti-patterns",
+          "pathRaw": "/Continuous Delivery/cd-anti-patterns/"
+        },
+        {
+          "id": "PageTree-Continuous Delivery/cd-practices-id-36971f8e-1032-4007-b2f7-04035c4b2eae",
+          "name": "Cd practices",
+          "pathRaw": "/Continuous Delivery/cd-practices/"
+        },
+        {
+          "id": "PageTree-Continuous Delivery/cloud-checklist-id-b32f01a8-6727-4873-8aa0-10b395ea2b7f",
+          "name": "Cloud checklist",
+          "pathRaw": "/Continuous Delivery/cloud-checklist/"
+        },
+        {
+          "id": "PageTree-Continuous Delivery/starting-ci-cd-id-2a3775bc-e158-48ff-9abb-69e91aefc02e",
+          "name": "Starting ci-cd",
+          "pathRaw": "/Continuous Delivery/starting-ci-cd/"
+        },
+        {
+          "id": "PageTree-Continuous Delivery/improvement-capabilities-id-78ec470b-b1b5-43e1-bc67-0088fd706608",
+          "name": "Improvement capabilities",
+          "pathRaw": "/Continuous Delivery/improvement-capabilities/"
+        }
+      ]
+    }
+  },
+  {
+    "node": {
+      "id": "PageTree-glossary-id-ce003d0b-fb3f-4d9c-b04e-8a9e4aca2ee1",
+      "name": "Glossary",
+      "pathRaw": "/glossary/",
+
+      "children": []
+    }
+  },
+  {
+    "node": {
+      "id": "PageTree-homepage-id-389955c7-1e50-40f4-b5f7-40b6078a99da",
+      "name": "Homepage",
+      "pathRaw": "/",
+
+      "children": []
+    }
+  },
+  {
+    "node": {
+      "id": "PageTree-test-architectur-id-3a73f295-52f1-49ba-9f58-56ad06b2fb2a",
+      "name": "Test architecture",
+      "pathRaw": "test-architecture",
+
+      "children": [
+        {
+          "id": "PageTree-test-architecture/terms-id-764722e4-16c9-41ca-ad10-6658961614a3",
+          "name": "Terms",
+          "pathRaw": "/test-architecture/terms/"
+        }
+      ]
+    }
+  },
+  {
+    "node": {
+      "id": "PageTree-work-decompositio-id-8d19a96d-6356-4bed-a8ea-91ed94cb2a65",
+      "name": "Work decomposition",
+      "pathRaw": "work-decomposition",
+
+      "children": [
+        {
+          "id": "PageTree-work-decomposition/complexity-and-estimation-id-8ba083c1-7903-42d8-8ea2-9e7686b50f7b",
+          "name": "Complexity and-estimation",
+          "pathRaw": "/work-decomposition/complexity-and-estimation/"
+        },
+        {
+          "id": "PageTree-work-decomposition/contract-driven-development-id-5f526c96-f610-415e-ad7c-ac891d10b04e",
+          "name": "Contract driven-development",
+          "pathRaw": "/work-decomposition/contract-driven-development/"
+        },
+        {
+          "id": "PageTree-work-decomposition/defining-product-goals-id-ffaef8eb-68aa-42fc-9201-7bc0ca5b83d6",
+          "name": "Defining product-goals",
+          "pathRaw": "/work-decomposition/defining-product-goals/"
+        },
+        {
+          "id": "PageTree-work-decomposition/definition-of-ready-id-72105bda-8f57-4d60-ae0b-55917ac6bb55",
+          "name": "Definition of-ready",
+          "pathRaw": "/work-decomposition/definition-of-ready/"
+        },
+        {
+          "id": "PageTree-work-decomposition/spikes-id-3ba6b4eb-a29a-492e-b09d-cae6fb698e80",
+          "name": "Spikes",
+          "pathRaw": "/work-decomposition/spikes/"
+        },
+        {
+          "id": "PageTree-work-decomposition/story-slicing-id-78ece13d-bdce-4d62-b2d1-b992207c2523",
+          "name": "Story slicing",
+          "pathRaw": "/work-decomposition/story-slicing/"
+        },
+        {
+          "id": "PageTree-work-decomposition/task-decomposition-id-3446528c-b819-426b-ba1d-e950403b9797",
+          "name": "Task decomposition",
+          "pathRaw": "/work-decomposition/task-decomposition/"
+        },
+        {
+          "id": "PageTree-work-decomposition/team-glossary-id-f447d787-2f33-4a60-8c61-1e6af9b67ac3",
+          "name": "Team glossary",
+          "pathRaw": "/work-decomposition/team-glossary/"
+        },
+        {
+          "id": "PageTree-work-decomposition/work-breakdown-id-209086e5-0aba-446e-bac5-0b04f9295005",
+          "name": "Work breakdown",
+          "pathRaw": "/work-decomposition/work-breakdown/"
+        },
+        {
+          "id": "PageTree-work-decomposition/behavior-driven-development-id-616d1f04-be6c-43b9-ae2c-af2383b0cca3",
+          "name": "Behavior driven-development",
+          "pathRaw": "/work-decomposition/behavior-driven-development/"
+        }
+      ]
+    }
+  }
+]

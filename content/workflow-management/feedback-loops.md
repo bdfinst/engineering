@@ -60,5 +60,3 @@ You produce something, measure information on that production, and use that info
 
 As a development team, we want to identify and shorten our feedback loops, so that we
 can analyze and optimize our workflow processes.
-
-_[Back To Workflow Management Journey](./workflow-process.html)_

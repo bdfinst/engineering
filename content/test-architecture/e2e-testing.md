@@ -25,9 +25,6 @@ testing due to their cost and fragility.
 ## References
 
 - Martin Fowler's [Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-- [SDE Testing Team Site](http://testing.walmart.com/index.html)
-- [Testing Terms](http://testing.walmart.com/testsolutions/testing-practices/testing-terms.html)
-- [Testing Tools](http://testing.walmart.com/testsolutions/tools/index.html)
 
 ---
 

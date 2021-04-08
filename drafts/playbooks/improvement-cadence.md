@@ -70,5 +70,3 @@ cadence, so that we may have improve our team processes.
 - Commit to daily standup everyday.
 - Have backlog refinement and demo/retro twice a week.
 - Create action items and commit to improving them.
-
-{% include playbooks-footer.html %}

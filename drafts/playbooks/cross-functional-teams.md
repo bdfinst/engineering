@@ -49,5 +49,3 @@ As a team, we want to have a cross functional team, so that we can build and sup
 ---
 
 _[Back To Bifrost](../index.html)_
-
-{% include playbooks-footer.html %}

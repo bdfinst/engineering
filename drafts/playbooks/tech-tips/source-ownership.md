@@ -17,8 +17,6 @@ what's happening in the code._**
 ## Tips
 
 - Teams looking to create an [InnerSourcing](./innersource.html) policy can start by applying their Definition of Done to any external contributions.
-- Use [Heimdall](http://heimdall.prod.walmart.com/) and
-  [Hygieia](https://hygieia.walmart.com/#/) for health overview of the team's repositories, pipelines, and DevOps culture.
 - If any developer on the team does not have the ability to merge code, ask "Why?".
 
 ## Value
@@ -40,7 +38,3 @@ As a team we want to create a culture of source ownership so that we can increas
   and many other anti-patterns to avoid in your journey.
 
 ---
-
-_[Back To Bifrost](../../index.html)_
-
-{% include playbooks-footer.html %}

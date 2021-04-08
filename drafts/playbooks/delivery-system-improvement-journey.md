@@ -9,20 +9,19 @@ practices.
 
 Prerequisite: Please review [CD Getting Started](../starting-ci-cd.html) guide for context.
 
-- [{{ page.title }}](#-pagetitle-)
-  - [1. Build a Deployment Pipeline](#1-build-a-deployment-pipeline)
-    - [Entangled Architecture - Requires Remediation](#entangled-architecture---requires-remediation)
-      - [Common Entangled Practices:](#common-entangled-practices)
-      - [Improvement Plan](#improvement-plan)
-    - [Tightly Coupled Architecture - Transitional](#tightly-coupled-architecture---transitional)
-      - [Common Tightly Coupled Practices](#common-tightly-coupled-practices)
-      - [Improvement Plan](#improvement-plan-1)
-    - [Loosely Coupled Architecture - Goal](#loosely-coupled-architecture---goal)
-      - [Common Loosely Coupled Practices](#common-loosely-coupled-practices)
-  - [2. Stabilize the Quality Signal](#2-stabilize-the-quality-signal)
-    - [Remediating Test Instability](#remediating-test-instability)
-  - [3. Continuous Improvement](#3-continuous-improvement)
-  - [References](#references)
+- [1. Build a Deployment Pipeline](#1-build-a-deployment-pipeline)
+  - [Entangled Architecture - Requires Remediation](#entangled-architecture---requires-remediation)
+    - [Common Entangled Practices:](#common-entangled-practices)
+    - [Improvement Plan](#improvement-plan)
+  - [Tightly Coupled Architecture - Transitional](#tightly-coupled-architecture---transitional)
+    - [Common Tightly Coupled Practices](#common-tightly-coupled-practices)
+    - [Improvement Plan](#improvement-plan-1)
+  - [Loosely Coupled Architecture - Goal](#loosely-coupled-architecture---goal)
+    - [Common Loosely Coupled Practices](#common-loosely-coupled-practices)
+- [2. Stabilize the Quality Signal](#2-stabilize-the-quality-signal)
+  - [Remediating Test Instability](#remediating-test-instability)
+- [3. Continuous Improvement](#3-continuous-improvement)
+- [References](#references)
 
 ## 1. Build a Deployment Pipeline
 
@@ -170,7 +169,7 @@ unstable tests.
 
 Unstable test results will create lack of trust in the test results and encourage baypassing test failure. To correct this:
 
-- Remove [flaky tests](https://engineering.walmart.com/docs/testing/glossary#non-deterministic-test) from the pipeline
+- Remove flaky tests from the pipeline
   to ensure that tests in the pipeline are trusted by the team
 - Identify the causes for test instability and take corrective action
   - If the test can be stabilized and provides value, correct it and move it back into the pipeline
@@ -179,10 +178,6 @@ Unstable test results will create lack of trust in the test results and encourag
 
 In general, bias should be towards testing **enough**, but not over-testing. Tracking the
 duration of the pipeline and enacting a quality gate for maximum pipeline duration (from PR merge to production) is a good way to keep testing efficient.
-
-More detailed suggestions can be found on the [Engineering
-Community testing best practice page](https://engineering.walmart.com/docs/testing/best-practices). Suggestions about
-where to run tests can be found on the [Testing Matrix](https://engineering.walmart.com/docs/testing#testing-matrix).
 
 After stabilizing the quality signal, we can track where most of the defects are detected and the type of defects they
 are. Start tracking the trends for the number of defects found in each environment and the root cause distribution of
