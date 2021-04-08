@@ -12,9 +12,6 @@ import React from 'react'
 
 const useStyles = makeStyles({
   menuItem: {},
-  menuItemIcon: {
-    color: '#97c05c',
-  },
 })
 
 const ContentMenuItem = ({ name, pathRaw, subItems = [] }) => {

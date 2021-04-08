@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: CD Anti-patterns
 menus:
   - Continuous Delivery

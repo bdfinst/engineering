@@ -20,7 +20,7 @@ const ContentMenu = () => {
       allMarkdownRemark(
         filter: {
           fields: { slug: { ne: "/", regex: "/^((?!404).)*$/" } }
-          frontmatter: {}
+          frontmatter: { published: { eq: true } }
         }
       ) {
         nodes {

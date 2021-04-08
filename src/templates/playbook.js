@@ -2,7 +2,7 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
-import Layout from '../components/layout'
+import Layout from '../components/NavLayout'
 import PostTags from '../components/PostTags'
 import PostWrapper from '../components/PostWrapper'
 
@@ -27,15 +27,15 @@ const BlogPosts = ({ data }) => {
   )
 }
 
-// export const query = graphql`
-//   query($slug: String!) {
-//     markdownRemark(fields: { slug: { eq: $slug } }) {
-//       html
-//       frontmatter {
-//         title
-//         tags
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+        tags
+      }
+    }
+  }
+`
 export default BlogPosts
