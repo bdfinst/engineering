@@ -1,25 +1,17 @@
 {
-  "name": "gatsby-starter-material-ui",
+  "name": "engineering.dso.mil",
   "version": "0.1.0",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and Material UI",
+  "description": "Recommended practices for Platform One",
   "keywords": [
     "gatsby"
   ],
-  "bugs": {
-    "url": "https://github.com/dominicabela/gatsby-starter-material-ui/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dominicabela/gatsby-starter-material-ui"
-  },
   "license": "MIT",
-  "author": "Dominic Abela <djmabela@gmail.com>",
   "scripts": {
     "develop": "gatsby develop",
     "start": "npm run clean && npm run develop",
     "build": "npm run clean && gatsby build",
-    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "npm run clean && gatsby build --prefix-paths",
     "clean": "rimraf .cache public",
     "serve": "gatsby serve",
     "now-build": "npm run build",
@@ -57,6 +49,7 @@
     "gatsby-source-filesystem": "^3.2.0",
     "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
+    "prismjs": "^1.23.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
