@@ -1,0 +1,2 @@
+(self.webpackChunkengineering_dso_mil=self.webpackChunkengineering_dso_mil||[]).push([[678],{7704:function(e,n,l){"use strict";l.r(n);var t=l(2846),r=l(7294),c=l(3319),i=l(2850),u=l(3751);n.default=function(){return r.createElement(c.Z,null,r.createElement(u.Z,{title:"Home"}),r.createElement(i.Z,null,r.createElement("h1",null,"Recommended Practices for Daily Value Delivery"),r.createElement(t.Z,null)))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-858e6e290d493160d18e.js.map
